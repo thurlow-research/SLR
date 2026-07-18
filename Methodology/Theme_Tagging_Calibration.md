@@ -240,3 +240,59 @@ is auditable (relevant for the course assignment and the dissertation methods ch
   The custom Zotero skills now **default to dry-run** and require an explicit `--commit` to write, and
   were re-released secret-free (`ResearchClaudeCodeSkills` v0.1.1). A standing global rule now scans
   staged content for key-shaped literals before any commit.
+
+---
+
+## 7. Human vetting pass — method & running log (Stage 1, 2026-07-17 → )
+
+**What this is.** Before the summative human-vs-model experiment, Scott human-tags the 20
+calibration papers as a **vocabulary-vetting pass**. The unit of work is not the tag set but the
+*probe*: each paper tests whether the vocabulary can express what the paper actually is. This
+reframes the human's first read from "baseline data collection" (the original blind design) to
+**instrument validation** — the strongest use of the arbiter's limited attention, since Stage 2 then
+measures the models against a vetted instrument and disagreement becomes attributable to the models.
+
+**Method (per paper).**
+1. Read full text; tag in Zotero via the Actions menu (`cal:human:theme:*` / `cal:human:facet:*`);
+   **type** the `cal:human:primary:theme:<slug>` tag (the menu cannot toggle primaries).
+2. Where the vocabulary resists, classify the failure before resolving it:
+   - **Uncaptured concept** → candidate new tag; stage in `HOS_Seeded_Theme_Candidates.md` unless
+     clearly needed now (bar: the concept recurs and no existing tag's *reasonable broadening* holds it).
+   - **Unanticipated use of an existing tag** → the definition MUST be updated to sanction the use.
+     "No new tag needed" does not mean "no instrument change": models tag from the written text, so
+     an unwritten broadening would be scored as model error when it is doc lag.
+   - **Boundary collision** → sharpen *both* themes' Boundary lines with the discriminating test.
+3. Land every change immediately in the Tag reference + `Taxonomy_Changelog.md` (no batching), so
+   the instrument converges monotonically and the models eventually see the settled text.
+4. Model tags are *visible* on Set A during this pass (they already ran) — used **diagnostically**
+   (does the human's difficulty reproduce a model split?). Set B carries no model tags; it stays
+   clean for Stage 2.
+
+**Decisions / learnings so far (through the first papers of the current 10):**
+- **The Lumen unanimity overturn (§5, changelog §11).** 4-model unanimous primaries can encode a
+  shared *category error*, not just ranking noise — unanimity is not a proxy for correctness even on
+  the "solved" primary task. Boundary rules that exist only in the triage discriminator (steering
+  exclusion) must be restated in the tagging instrument or models won't apply them.
+- **The unanticipated-use principle** (method step 2b) — the pass's first-order product is
+  definition text, not tags.
+- **Facets carry explanatory load.** `assistive` (added a day earlier) *explained* the Lumen
+  difficulty: in assistive mode there is no handoff for the old `oversight-explanation` to bite on.
+  Mode facets validated on day one.
+- **Word-collision discipline.** "Transparency" joins "framework" as a word that must route by
+  object, never be tagged as such — now a preamble rule.
+- **Lens-vs-lever** emerged as a cross-theme discriminator: information themes
+  (`oversight-explanation`, `provenance-auditability`) vs action themes (`hitl-workflow`,
+  `risk-routing`), with persistence (record vs live view) separating the two information themes.
+- **Instrument-copy drift is real.** The Set B packet's embedded cheat-sheet was silently v0-vintage
+  while the Zotero menu was current — caught 2026-07-18. All copies (cheat-sheet, prompt, packet)
+  must be updated in the same commit as the Tag reference.
+- **Tooling gap:** the Actions menu cannot set primaries → primaries are typed; early-tagged papers
+  need backfill when the vocabulary moves under them (TF56EPIP: mode facet + primary pending).
+
+**Running log** *(update at the end of the current 10)*:
+
+| # | Paper | Set | Human outcome | Instrument action |
+|---|---|---|---|---|
+| 1 | `TF56EPIP` | B | 6 themes incl. `automation-bias`, `provenance-auditability`; no primary/facets yet | pre-dates mode pair → backfill primary + mode facet |
+| 2 | `VG6CIDQW` (Lumen) | A | `oversight-explanation` (primary, typed tag pending) + `assistive` + `built-system`; overturned 4-model unanimous `hitl-workflow` | changelog §11: `oversight-explanation` broadened (push/pull); steering exclusion → input side; `hitl-workflow` levers-only; `provenance-auditability` record test; transparency routing rule |
+
