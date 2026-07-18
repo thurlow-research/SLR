@@ -294,6 +294,6 @@ measures the models against a vetted instrument and disagreement becomes attribu
 | # | Paper | Set | Human outcome | Instrument action |
 |---|---|---|---|---|
 | 1 | `TF56EPIP` | B | 6 themes incl. `automation-bias`, `provenance-auditability`; no primary/facets yet | pre-dates mode pair → backfill primary + mode facet |
-| 2 | `VG6CIDQW` (Lumen) | A | `oversight-explanation` (primary, typed tag pending) + `assistive` + `built-system` + `steering` (facet, to add); overturned 4-model unanimous `hitl-workflow` | changelog §11: `oversight-explanation` broadened (push/pull); steering exclusion → input side (confirmed, §12); `hitl-workflow` levers-only; `provenance-auditability` record test; transparency routing rule |
+| 2 | `VG6CIDQW` (Lumen) | A | **COMPLETE & verified 2026-07-18:** primary `oversight-explanation` + `assistive` + `built-system` + `steering`; overturned 4-model unanimous `hitl-workflow` | changelog §11: `oversight-explanation` broadened (push/pull); steering exclusion → input side (confirmed, §12); `hitl-workflow` levers-only; `provenance-auditability` record test; transparency routing rule |
 | — | `22JBEZNK` | A | in progress | probe yielded `steering` + `non-developer` facets (§12) + oversight-competence-gap candidate staged |
 
