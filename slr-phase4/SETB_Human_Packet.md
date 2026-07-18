@@ -68,6 +68,10 @@ Pick **one PRIMARY theme** (the paper's home / where it'd be written up in depth
 - `agentic` — **AI-initiated / AI-planned multi-step work** delivered at **artifact/PR granularity** for review. Oversight surface = the *gate*.
 - Apply either or **both** (paper compares/spans modes); **neither** = mode unspecified / irrelevant to the paper's claim.
 
+**Contribution / population flags:**
+- `steering` — [contribution flag] the paper's proposed solution (wholly/partly) operates on **generation** (prompts, specs, fine-tuning, shaping model inputs) rather than inspecting/gating the artifact. **Contribution, not topic.** Steering-**only** solution → demote candidate
+- `non-developer` — [scope flag] the generating/overseeing human is **not a professional developer** (end-user / business user / citizen developer). Default (untagged) = professional devs
+
 
 ---
 

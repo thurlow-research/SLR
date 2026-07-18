@@ -147,6 +147,25 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
 - **Outcome:** pending the re-run — the decisive check is whether the broadened definition + steering
   cue flips the models' Lumen primary to `oversight-explanation`.
 
+## 12. `steering` + `non-developer` facets (vetting pass, papers 2–3)
+- **Gaps (2026-07-18):** (a) steering existed only as an *exclusion* — nothing marked a paper's
+  steering component, so exclusion decisions left no audit trail and hybrid steer-and-check systems
+  would read as under-tagged in the sweep; `assistive` cannot carry this (mode of the *setting* ≠
+  type of the *contribution*). (b) Reading `22JBEZNK`: "non-programmers generating code" — the
+  democratization endgame of vibe coding — had no population marker, though it up-ends the Escalate
+  stage (escalation presupposes a competent receiver).
+- **Change:** two facets. **`steering`** (contribution-type flag; contribution-not-topic guardrail;
+  steering-*only* → demote candidate — makes the `spec-driven-guardrails` resolution enforceable,
+  parallel to `general-ai`). **`non-developer`** (population scope flag; default = professional
+  devs), completing the scope axes: mode (`assistive`/`agentic`) · object (`general-ai`) ·
+  population (`non-developer`). The *argument* (oversight-competence gap) is staged in
+  `HOS_Seeded_Theme_Candidates.md`, NOT made a theme (n=1; `non-developer` is its tripwire —
+  promote if flagged papers accumulate making the argument). Facets 10 → 12; menu 28 → 30 actions.
+- **Open:** whether Lumen `VG6CIDQW` carries `steering` is disputed (Scott: the human curating the
+  assistant's context may be agency/comprehension, not generation-shaping) — under discussion; Lumen
+  deliberately NOT cited as a `steering` example pending resolution.
+- **Outcome:** pending the sweep (facet counts + whether the competence-gap candidate promotes).
+
 ---
 
 ### Headline for the writeup

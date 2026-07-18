@@ -131,6 +131,26 @@ stratification** — mode-specific items in the org survey.
   more); `SHK6KAX6` / `UIXCRBQX` — agentic (agentic-PR merge & maintenance studies); `T72TU8B5`
   (Hedwig autonomy tiers) — agentic.
 
+**`steering`** (contribution-type flag, added 2026-07-18) — the paper's proposed solution (wholly or
+in part) operates on **generation** — better prompts, specs/executable requirements, fine-tuning,
+shaping model inputs — rather than inspecting/gating the produced artifact. **Contribution, not
+topic**: every AI-coding paper touches generation; the flag applies only when steering is *offered as
+the solution*. Three jobs: (a) **audit trail** for the steering exclusion — documents why a solution
+component earned no solution theme; (b) explains sparse theme rosters on hybrid steer-and-check
+systems in the sweep; (c) **tripwire**: a *steering-only* solution is a demote-to-context candidate
+(the `spec-driven-guardrails` resolution, now enforceable — parallel to `general-ai` for object
+scope). Illustrative: `DPKKMXSA` (prompt-enhancement as the fix); the spec-driven cluster
+(`C88VGWMI` `7SH86C2W` `JCTP8VXP`, context-tier).
+
+**`non-developer`** (scope flag, population axis, added 2026-07-18) — the generating/overseeing
+human studied is **not a professional developer**: end-user, business user, citizen developer —
+the "democratization" endgame of vibe coding. Default (untagged) = professional-developer context.
+Completes the three scope axes: **mode** (`assistive`/`agentic`) · **object** (`general-ai`) ·
+**population** (`non-developer`). Also the tripwire for the staged **oversight-competence-gap** theme
+candidate (escalation presupposes a competent receiver; democratization removes it — see
+`HOS_Seeded_Theme_Candidates.md`): if flagged papers accumulate making that argument, it promotes.
+Illustrative: `22JBEZNK` — business users can't detect flaws in AI analyses even when warned.
+
 ---
 
 ### THEME TAGS
@@ -408,6 +428,12 @@ Cross-cutting: `agent-scope-drift`.
   human-tagging the calibration papers as a *vocabulary-vetting pass*; the human-vs-model experiment
   then runs on the vetted instrument (models re-run both sets; Set A human tags are model-informed,
   Set B is the clean comparison). See `Taxonomy_Changelog.md` §11.
+- **`steering` + `non-developer` facets — ADDED (Scott, 2026-07-18, vetting pass).** `steering` =
+  contribution-type flag (solution operates on generation; audit trail for the steering exclusion;
+  steering-only → demote candidate). `non-developer` = population scope flag (end-user/business-user/
+  citizen-developer settings; the democratization endgame), completing the mode/object/population
+  scope axes and serving as tripwire for the staged *oversight-competence-gap* theme candidate
+  (22JBEZNK seed). Facet count 10 → 12. Changelog §12.
 - **`assistive` / `agentic` generation-mode facet pair — ADDED (Scott, 2026-07-18).** The oversight
   problem differs qualitatively by mode — acceptance-moment micro-decisions (automation-bias evidence)
   vs artifact-level gating (the scaling inversion + the solution pipeline) — and the axis is not
