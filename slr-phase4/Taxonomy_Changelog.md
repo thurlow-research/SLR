@@ -331,6 +331,15 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   contribution, so UB2EVUFU stays ai-review), UB2EVUFU
   (codex+gemini overcorrect to primary remediation-gating after the D2/D3 text raised its salience;
   gemini violated the then-unstated primary∈themes constraint).
+- **Altitude-rule regression test (2026-07-18, latest):** 3 papers × 3 fresh taggers under the
+  updated instrument — **8/9**. Flip-check UB2EVUFU: **codex flipped back to ai-review** (the guard
+  worked; rationale decomposes per the rule); fable held correct. Hold-checks: F9JM9CI6
+  oversight-explanation 3/3, Hedwig risk-routing 3/3 (nothing destabilized). Gemini's schema
+  violation is gone (primary now in themes). **Residual: gemini kept remediation-gating on UB2EVUFU
+  despite the compressed copy naming that exact case verbatim** — model non-compliance, not a
+  wording gap; recorded as a gemini signature (v1 conservative floor → schema violation → ignores
+  named worked example). Sweep implication: gemini primaries on multi-mechanism systems papers get
+  the human check the design already prescribes.
 - **Round-2 smoke test (fresh Fable, v2 text only): 10 revision-introduced defects found & fixed** —
   primary∈themes schema line added; best-effort-primary-when-demoting contradiction resolved;
   task-block demote copy restored the benchmark-evaluating-a-contributed-system carve-out; stale
