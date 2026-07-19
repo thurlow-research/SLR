@@ -325,8 +325,10 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   (Lumen, 22JBEZNK) now called correctly by all three. Residual misses concentrate in 3 papers:
   2CKL96B8 (all three follow the *operationalized* biggest-tent to ai-code-insecurity — **resolved:
   human re-adjudicated to ai-code-insecurity**, conceding the original ai-review primary stretched
-  that theme's definition; a case of the written rule out-performing the recorded intent), F9JM9CI6 (stable
-  unanimous ranking call at the new ai-review↔oversight-explanation adjacency), UB2EVUFU
+  that theme's definition; a case of the written rule out-performing the recorded intent), F9JM9CI6 (**resolved: human re-adjudicated to
+  oversight-explanation** via the new **altitude refinement** — primary = most specific theme still
+  capturing the paper's main effort; guard: a component mechanism doesn't outrank the broader
+  contribution, so UB2EVUFU stays ai-review), UB2EVUFU
   (codex+gemini overcorrect to primary remediation-gating after the D2/D3 text raised its salience;
   gemini violated the then-unstated primary∈themes constraint).
 - **Round-2 smoke test (fresh Fable, v2 text only): 10 revision-introduced defects found & fixed** —

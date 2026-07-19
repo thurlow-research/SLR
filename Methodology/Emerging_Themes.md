@@ -57,6 +57,12 @@ Tags live in **three independent layers**; a paper normally carries several acro
   `ai-review`↔`hitl-workflow` = the AI check vs. the human's gate), the primary is the theme carrying the
   paper's **distinctive contribution / novelty**, *not* the standard scaffolding. (Hedwig `T72TU8B5`:
   novelty = the dynamic-autonomy classifier → `risk-routing`, not the check-in surface.)
+  **Altitude refinement (Scott, 2026-07-18 late, F9JM9CI6):** when a broader and a more specific
+  theme both fit, primary = the most specific theme that still captures **where the paper's main
+  effort lives** (F9JM9CI6: an AI-review vision whose energy goes into explanation design →
+  `oversight-explanation` primary). Guard: a specific mechanism that is one *component* of a broader
+  contribution does NOT outrank the broader theme (UB2EVUFU: budget-halving inside the verification
+  architecture → primary stays `ai-review` — the exact codex/gemini v2 retag error).
 
 ---
 
