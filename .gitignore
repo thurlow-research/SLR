@@ -25,3 +25,6 @@ slr-phase4/txt/
 # redundant binary spreadsheets (csv kept)
 *.xls
 *.xlsx
+slr-phase4/data/critique/critique_input.md
+slr-phase4/data/critique/*.raw
+slr-phase4/data/critique/*.err
