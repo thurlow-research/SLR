@@ -207,9 +207,19 @@ instrument, so disagreement is attributable to the models, not to known-fuzzy de
    `cal:human:primary:theme:<slug>` tag per paper — the menu can't). **Comparability note:** Set A
    human tags are *model-informed* (model tags visible while vetting); **Set B is the clean blind
    comparison** (no model tags exist there — do not run models on Set B until the vetting pass is done).
-1b. **Instrument-critique panel (added 2026-07-18):** after the vetting pass, the high-end models
-   (Fable 5, Gemini Pro, codex-equivalent) **review and critique the tagging instructions** before
-   the retag. **Critique taxonomy — only the first category is directly actionable:** (a) *ambiguity /
+1b. **Instrument-critique panel (added 2026-07-18; design detailed 2026-07-18 EOD):** after the Set A
+   vetting pass, validate the instrument itself before spending the retag. Sequence: (i) Fable
+   **known-answer dry-run** — fresh-context taggers apply the current instrument to the 10 Set A
+   papers; diff vs human tags; fix residuals (finds where the text doesn't *force* the adjudicated
+   answer); (ii) **critique panel** — Fable 5 + Gemini top tier + Codex top tier, fresh contexts,
+   given the instrument + Tag reference + curated Set A (full text for the 5 adjudication-rich
+   papers, title/abstract for the rest) **with human tags only** (injected into the prompt — no
+   tool access needed; the prompt is archived as the frozen critique input); critique + propose
+   improvements; adversarial test cases required per finding; (iii) Scott dispositions findings
+   (suggestions are proposals, adoption is the arbiter's); (iv) freeze instrument v2; (v) **retag
+   Set A** under v2 and evaluate improvement (human-vs-model agreement + the §10–§17 regression
+   checks) — **gate: only after v2 is judged improved does Scott tag Set B**, under the frozen
+   instrument, then models tag Set B for the clean comparison. **Critique taxonomy — only the first category is directly actionable:** (a) *ambiguity /
    inconsistency / omission* in the written instrument → fix; (b) *disagreement with an adjudicated
    boundary decision* (e.g., the drift object-of-mechanism rule, the steering exclusion) → recorded
    but the human arbiter's call stands — otherwise the critique loop re-tunes the instrument toward
