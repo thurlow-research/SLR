@@ -308,9 +308,16 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   epistemics; severity + cross-model agreement = risk-routing on a computed producer-independent
   signal; fix approval/escalation + refix-loop governance = remediation-gating). **D4 dependency
   split** (measure → ai-code-insecurity; govern-what-enters → tooling-supply-chain).
-- **OPEN: D3** (the general rule for human-approves-each-fix) — deliberately NOT enshrined pending
-  arbiter discussion; the worked example encodes only the adjudicated HOS cycle. **Instrument = v2-rc
-  until D3 resolves**, then freeze → Set A retag (improvement gate) → Set B.
+- **D3 RESOLVED (Scott, 2026-07-18) — the Jidoka ruling.** `remediation-gating` = the system fixes
+  **autonomously, without per-fix human involvement**, kept safe by machinery (content/process
+  gates, convergence, fail-closed stops); `risk-routing` **layers on top** to engage the human only
+  when absolutely required — the andon cord. Risky-fix escalation to a human is therefore *routing*,
+  not remediation (corrects a comingling in the first-draft worked example). **Human-approves-every-
+  fix is NOT remediation-gating**: review-everything is the unscalable anti-pattern the review
+  exists to move past (attention collapse); a paper *advocating* it is a `counterpoint` candidate —
+  and *introducing* automation-bias risk by design is a rationale-level critique, distinct from
+  `automation-bias` membership (which requires *studying* the failure). **Instrument FROZEN as v2**
+  → Set A retag (improvement gate) → Set B.
 
 ---
 

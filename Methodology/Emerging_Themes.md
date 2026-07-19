@@ -332,11 +332,18 @@ Cross-cutting: `agent-scope-drift`.
 **— FIX (remediate the problem) —**
 
 **`theme:remediation-gating`** · ~3 (thin — populate in sweep)
-- **Captures:** oversight *over the fix* — how autonomous fixes / auto-repair are filtered, gated, or
-  escalated before they land. The *acting* step brought under control. **Two gate kinds qualify
-  (2026-07-18):** **content** gates (filter/arbitrate *which* fix candidates are acceptable) and
-  **process** gates (bounded retries, budget-decay, stop-progression policies over autonomous repair
-  loops — fail-closed termination + handback when the fix won't converge).
+- **Captures (D3 ruling, 2026-07-18): governance of AUTONOMOUS fixing** — the system fixes *without
+  per-fix human involvement* (Jidoka: autonomation that stops/corrects itself), kept safe by
+  machinery: **content** gates (filter/arbitrate *which* fix candidates are acceptable) and
+  **process** gates (bounded retries, budget-decay, convergence rules, stop-progression — fail-closed
+  termination + handback when the fix won't converge). The *acting* step brought under control.
+  Deciding when a **human** must engage on the fix path (risk tiers over fixes) = `risk-routing`
+  layered on top — the andon cord, not the gate. **A human approving every fix is NOT this theme:**
+  review-everything is the unscalable anti-pattern this review exists to move past (attention
+  collapse → automation-bias territory); a paper *advocating* blanket per-fix human approval is a
+  `counterpoint` candidate. Note the distinction: such a design *introduces* automation-bias risk —
+  a rationale-level critique — whereas `automation-bias` *membership* requires the paper to
+  study/evidence the human failure, not merely risk causing it.
 - **Boundary:** the *gating/oversight of the fix*, **not** the repair technique itself (generating a
   fix is generation, outside the oversight frame). **Requires an autonomous fix/repair action being
   overseen** — a pure *detection or publish/quality gate* that blocks bad code with **no auto-fix** is
