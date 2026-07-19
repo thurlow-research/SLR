@@ -1,8 +1,9 @@
 # Theme-Tagging Calibration — Design & Findings
 
 **Vibe Coding Governance SLR · methodology + results record**
-**Started:** 2026-07-14 · Status (2026-07-18): **Set A v1 model runs + human vetting pass COMPLETE
-(§7); next = instrument-critique panel (§5·1b) → Set B human tags → vetted retag of Sets A+B**
+**Started:** 2026-07-14 · Status (2026-07-18 EOD): **validation cycle complete; GATE = PASS
+(Scott, 2026-07-18); instrument frozen v2.1+altitude; Set A human tags fully reconciled in Zotero;
+next = Scott tags Set B blind (Set B remains model-free until then)**
 
 Purpose: before applying the 16-theme controlled vocabulary (see `Emerging_Themes.md` → *Tag
 reference*) to all 149 cores, establish **tagging reliability** on a small calibrated sample —
@@ -219,7 +220,11 @@ instrument, so disagreement is attributable to the models, not to known-fuzzy de
    (suggestions are proposals, adoption is the arbiter's); (iv) freeze instrument v2; (v) **retag
    Set A** under v2 and evaluate improvement (human-vs-model agreement + the §10–§17 regression
    checks) — **gate: only after v2 is judged improved does Scott tag Set B**, under the frozen
-   instrument, then models tag Set B for the clean comparison. **Critique taxonomy — only the first category is directly actionable:** (a) *ambiguity /
+   instrument, then models tag Set B for the clean comparison. **GATE CALLED: PASS (Scott,
+   2026-07-18)** — fable 10/10 / codex 9/10 / gemini 9/10 primaries, facet agreement doubled,
+   altitude regression 8/9. Set A backfills executed same day (counterpoint → Z8TPRNEU+VG6CIDQW,
+   agentic → T8E8SCCG, general-code → UDVHQ5HR); all 10 Set A items verified consistent with every
+   adjudication and ruling. Actions menu (32 toggles) re-imported by Scott. **Critique taxonomy — only the first category is directly actionable:** (a) *ambiguity /
    inconsistency / omission* in the written instrument → fix; (b) *disagreement with an adjudicated
    boundary decision* (e.g., the drift object-of-mechanism rule, the steering exclusion) → recorded
    but the human arbiter's call stands — otherwise the critique loop re-tunes the instrument toward

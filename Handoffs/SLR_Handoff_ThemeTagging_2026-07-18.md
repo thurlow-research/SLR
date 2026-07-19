@@ -40,6 +40,9 @@ DISPOSITION.md. Instrument copies (`Tag_Cheatsheet.md`, `Tag_Prompt.md` = cheats
 
 ## 2. PENDING — Scott's queue at handoff
 
+*(Update, same day: items 1–3 DONE — gate = PASS; Set A backfills written & all 10 items verified;
+Actions menu re-imported. Remaining: items 4–5 — Scott tags Set B, then the comparison.)*
+
 1. **Formal gate call** (recommendation on record: PASS — every metric improved, residuals are
    model signatures not wording gaps).
 2. **Zotero backfill batch** (validation runs surfaced these; one API batch, authorized wording
