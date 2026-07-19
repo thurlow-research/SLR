@@ -4,7 +4,7 @@
 Read the **document contents** (each paper is in Zotero → **02-Human Calibration Run**, with PDF + TXT).
 
 **How to record:** fill the template at the bottom (or tag in Zotero — your call). For each paper:
-- **Primary** = the one home theme.
+- **Primary** = the one home theme. Tie-breaker: distinctive novelty, not scaffolding. **Altitude:** prefer the most specific theme that still captures where the paper's main effort lives — but a component mechanism inside a broader contribution does not outrank it.
 - **Themes** = all `theme:` slugs that fit (membership, not mention).
 - **Facets** = any facet tags that apply. **Run the five-question facet checklist on every paper**
   (misses cluster here): **role** (anchor / survey-input / intro-framing / lit-review / counterpoint)? · **form**
