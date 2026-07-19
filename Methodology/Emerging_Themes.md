@@ -364,6 +364,10 @@ Cross-cutting: `agent-scope-drift`.
   tooling (the former "context transparency", relocated 2026-07-18) → `oversight-explanation`.
   Deciding *whether/what* to escalate → `risk-routing`. NB the steering exclusion: a lever over the
   AI's *inputs/context* is steering, not a control point over the artifact (the Lumen error).
+  **Plan-gate rule (Scott, 2026-07-18 panel ruling):** a human gate over an AI-produced plan IS
+  hitl-workflow when it is a *designed checkpoint in a lifecycle with checks and balances* (defined
+  gate, authority to block, resumable process); the same approval act inside a conversational
+  guide-then-"go do it" flow is steering.
 - **Examples:** `XK3P9C96` — optimal placement of confirmation checkpoints; `U9VZQXGI` — HITL agent UI
   with action guards; `N7E3MR2V` — full-SDLC agent with human-approval guardrails + audit trails;
   `ID7IN65K` — 860-dev survey: demand for bounded delegation with authority scoping.
@@ -376,7 +380,10 @@ Cross-cutting: `agent-scope-drift`.
     code detail to decision framing (the agentic-mode manifestation);
   - **pull** — tools the human *invokes* to understand what the AI is doing/using: context and
     dependency visibility, live "what is it drawing on" views (the assistive-mode manifestation;
-    absorbs "context transparency", relocated here from `hitl-workflow`).
+    absorbs "context transparency", relocated here from `hitl-workflow`);
+  - **standing** (added 2026-07-18, critique panel) — explanations *attached to AI output* that
+    support the human's verdict (`7UB2MD8Z`'s patch explanations; 22JBEZNK's reformatted responses).
+    The modes are **illustrative, not exhaustive** — the headline governs.
 - **Boundary:** information/lens, never the lever — *acting* on the understanding (gates, checkpoints,
   approvals) → `hitl-workflow`; *where* to look → `risk-routing`; a **persistent auditable record**
   (vs a point-in-time view) → `provenance-auditability`.
@@ -430,7 +437,10 @@ Cross-cutting: `agent-scope-drift`.
   **+ attacks on the oversight layer** (framing attacks, evasion, spec-gaming — a supply-chain attack
   on the reviewer, absorbed from the dissolved T3).
 - **Boundary:** governance of *what enters* (tools/deps) and *attacks on the reviewer*, distinct from
-  reviewing the emitted code. Excludes keyword false-positives (hardware trojans, classic SolarWinds-class incidents).
+  reviewing the emitted code. **Dependency split (2026-07-18 panel ruling):** *measuring*
+  hallucinated/insecure dependencies in AI output → `ai-code-insecurity`; *governing what enters*
+  (registry vetting, allowlists, provenance gates) → here. Excludes keyword false-positives (hardware
+  trojans, classic SolarWinds-class incidents).
 - **Examples:** `6ZC3H7AF` — 26% of scanned agent skills carry ≥1 vulnerability, minimal vetting;
   *attacks:* `X7EN6DXZ` — PR-metadata framing biases LLM review, 100% attack success; `T3XTXIXW` —
   obfuscation reliably bypasses CoT LLM review.

@@ -280,6 +280,38 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
 - **Outcome:** Set A human pass complete — all 10 papers tagged, verified, and adjudicated; ~20
   instrument products across §10–§17 from six probe papers + this audit.
 
+## 18. Instrument-critique panel + known-answer dry-run → v2 revision
+- **Dry-run (2026-07-18):** 5 blind fresh-context Fable taggers applied the instrument to the 10
+  adjudicated Set A papers: **8/10 primary match; all four regression checks passed** (Lumen flip,
+  VibeGuard exclusion, 22JBEZNK not-bias with the discriminator cited verbatim, tie-rule applied by
+  name). Residual fixes: flags field, steering materiality, binding biggest-tent, ai-review practice
+  clause. The two primary misses: 2CKL96B8 (biggest-tent non-binding) and F9JM9CI6 (the new
+  ai-review↔oversight-explanation adjacency).
+- **Panel (same day):** Fable 5 + GPT-5 Codex (high) + Gemini 3.1 Pro (High), fresh contexts, frozen
+  input (instrument + Tag reference + Set A dev set with human tags only; input generator committed,
+  artifact gitignored). ~40 findings; verdicts converge on "one revision cycle, then sweep." Full
+  merged table: `data/critique/DISPOSITION.md`. Known-answer synthesis: theme-level calls are
+  *forced* by the text; facet/flag-level calls mostly only *permitted* → divergence risk lives in
+  facets/flags, mirroring Set A's breadth noise.
+- **Applied (v2):** all A-group schema fixes (demote trigger list corrected — `general-code` is NOT
+  a demote reason; criteria unified; bare-slug primary governs; flags vocabulary enumerated incl.
+  `insufficient-input`); all B-group compression-gap restorations (computed-signal rule,
+  framework point-tool exclusion + adoption test, dependencies clause, Detect dual-tagging,
+  formal-methods third composition, intro-framing qualifier, Hedwig tie-break exemplar); all C-group
+  sharpenings (oversight-explanation gains the **standing** mode — modes illustrative, headline
+  governs; documented-practice clause generalized; biggest-tent operationalized; provenance record
+  must serve *human* review; thin-input floor; insecurity evidence bar; vision-paper membership
+  floor; survey-input substantiveness; competence-gap keep-core note); scope flags regrouped.
+- **Arbiter rulings encoded:** **D1 plan-gate rule** (designed lifecycle checkpoint = hitl-workflow;
+  conversational guide-then-go = steering). **D2 who-checks-what decomposition** with the HOS release
+  cycle as worked example (producer self-checks = no theme; independent evaluation = detector by
+  epistemics; severity + cross-model agreement = risk-routing on a computed producer-independent
+  signal; fix approval/escalation + refix-loop governance = remediation-gating). **D4 dependency
+  split** (measure → ai-code-insecurity; govern-what-enters → tooling-supply-chain).
+- **OPEN: D3** (the general rule for human-approves-each-fix) — deliberately NOT enshrined pending
+  arbiter discussion; the worked example encodes only the adjudicated HOS cycle. **Instrument = v2-rc
+  until D3 resolves**, then freeze → Set A retag (improvement gate) → Set B.
+
 ---
 
 ### Headline for the writeup
