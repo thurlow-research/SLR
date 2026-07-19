@@ -1,7 +1,8 @@
 # Theme-Tagging Calibration — Design & Findings
 
 **Vibe Coding Governance SLR · methodology + results record**
-**Started:** 2026-07-14 · Status: **Set A (AI) complete; Set B (human) pending**
+**Started:** 2026-07-14 · Status (2026-07-18): **Set A v1 model runs + human vetting pass COMPLETE
+(§7); next = instrument-critique panel (§5·1b) → Set B human tags → vetted retag of Sets A+B**
 
 Purpose: before applying the 16-theme controlled vocabulary (see `Emerging_Themes.md` → *Tag
 reference*) to all 149 cores, establish **tagging reliability** on a small calibrated sample —

@@ -140,7 +140,8 @@ distinct from coding-specific governance. Object-of-governance = the *model*, no
 the paper studies. The cut is **who initiates + the reviewable unit**, NOT tool location — "in the IDE"
 is the wrong axis, since agents live in IDEs too (Cursor, Copilot agent mode):
 - **`assistive`** — human-initiated, **suggestion-granularity** generation (inline completion,
-  chat-paste): the human authors in the flow and accepts piece-by-piece. Oversight surface = the
+  *snippet-level* chat-paste): the human authors in the flow and accepts piece-by-piece (a chat task
+  returning a *complete artifact* is the tie-rule case: reviewable unit dominates → `agentic`). Oversight surface = the
   *acceptance moment* (`automation-bias` territory).
 - **`agentic`** — **AI-initiated / AI-planned multi-step work** delivered at **artifact/PR granularity**
   for review. Oversight surface = the *gate* (`oversight-scaling-inversion` territory; the setting the
@@ -498,6 +499,15 @@ Cross-cutting: `agent-scope-drift`.
   human-tagging the calibration papers as a *vocabulary-vetting pass*; the human-vs-model experiment
   then runs on the vetted instrument (models re-run both sets; Set A human tags are model-informed,
   Set B is the clean comparison). See `Taxonomy_Changelog.md` §11.
+- **Set A audit decisions (Scott, 2026-07-18 EOD; changelog §16–§17).** `automation-bias` requires a
+  **capable** human (capability discriminator; `22JBEZNK` example → counter-example; the
+  oversight-competence-gap candidate is now arbiter-validated). `problem-statement-anchor` bar =
+  the **overall** problem statement only; **never on `lit-review`**. `lit-review` = systematic OR
+  narrative (synthesized-not-produced test); lit-review primary = **biggest-tent** theme. Mode
+  **tie-rule**: reviewable unit dominates initiator. Workflow: **struggle signal** (primary struggle /
+  definition-stretching → check the core bar). VibeGuard `remediation-gating` recurrence →
+  **compression-gap principle**: every boundary that has ever caught a human must appear in the
+  compressed instrument, not just this reference.
 - **`steering` + `non-developer` facets — ADDED (Scott, 2026-07-18, vetting pass).** `steering` =
   contribution-type flag (solution operates on generation; audit trail for the steering exclusion;
   steering-only → demote candidate). `non-developer` = population scope flag (end-user/business-user/

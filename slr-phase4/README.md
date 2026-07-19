@@ -57,3 +57,9 @@ Model panel: `opus` (Claude Opus) · `fable` (Claude Fable 5) · `codex` (gpt-5.
   fresh (Set A human tags model-informed; **Set B = clean comparison** — no model runs there until
   vetting is done). v1-instrument model outputs archived in `data/tags-v1/`. Then the full 148-core
   sweep, then extend survey-input/lit-review over the 892 contexts.
+- **2026-07-18 EOD — Set A human vetting pass COMPLETE.** All 10 tagged, verified, adjudicated
+  (calibration doc §7 log; `Taxonomy_Changelog.md` §10–§17 = ~20 instrument products). Headlines:
+  **two unanimous-model primary overturns** (Lumen §11, 22JBEZNK §16), the VibeGuard recurrence →
+  compression-gap principle (§17), 2 new `demote:context` flags (3/10 demote rate — expect a demote
+  tail in the sweep). Facets now 14; menu 32 actions. **Next:** instrument-critique panel (§5 step
+  1b) → freeze vetted instrument → Scott tags Set B → models retag Sets A+B → comparison.

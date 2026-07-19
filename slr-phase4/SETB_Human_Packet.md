@@ -70,7 +70,7 @@ Pick **one PRIMARY theme** (the paper's home / where it'd be written up in depth
 - `general-ai` — [scope flag] governance/oversight is **general AI/LLM, not coding-specific** (model robustness, general RAI frameworks). Default (untagged) = coding-specific. Flags candidates for context.
 
 **Generation-mode scope pair** (which *setting* the paper studies; cut on **who initiates + the reviewable unit**, NOT tool location — agents live in IDEs too):
-- `assistive` — **human-initiated, suggestion-granularity** generation (inline completion, chat-paste): the human authors in the flow, accepts piece-by-piece. Oversight surface = the *acceptance moment*.
+- `assistive` — **human-initiated, suggestion-granularity** generation (inline completion, **snippet-level** chat-paste): the human authors in the flow, accepts piece-by-piece — a chat task returning a *complete artifact* is the tie-rule case below. Oversight surface = the *acceptance moment*.
 - `agentic` — **AI-initiated / AI-planned multi-step work** delivered at **artifact/PR granularity** for review. Oversight surface = the *gate*.
 - Apply either or **both** (paper compares/spans modes); **neither** = mode unspecified / irrelevant to the paper's claim. **The pair describes the *generation* studied:** "uses agents" ≠ `agentic`, "AI assists the human" ≠ `assistive` — AI only on the review/oversight side → **neither** + consider `general-code`. **Tie-rule:** initiator vs reviewable unit disagree (human-prompted chat task → complete artifact) → **the reviewable unit dominates** (wholesale artifact = the gate = `agentic`).
 

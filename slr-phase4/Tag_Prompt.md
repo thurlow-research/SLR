@@ -49,7 +49,7 @@ Pick **one PRIMARY theme** (the paper's home / where it'd be written up in depth
 - `general-ai` — [scope flag] governance/oversight is **general AI/LLM, not coding-specific** (model robustness, general RAI frameworks). Default (untagged) = coding-specific. Flags candidates for context.
 
 **Generation-mode scope pair** (which *setting* the paper studies; cut on **who initiates + the reviewable unit**, NOT tool location — agents live in IDEs too):
-- `assistive` — **human-initiated, suggestion-granularity** generation (inline completion, chat-paste): the human authors in the flow, accepts piece-by-piece. Oversight surface = the *acceptance moment*.
+- `assistive` — **human-initiated, suggestion-granularity** generation (inline completion, **snippet-level** chat-paste): the human authors in the flow, accepts piece-by-piece — a chat task returning a *complete artifact* is the tie-rule case below. Oversight surface = the *acceptance moment*.
 - `agentic` — **AI-initiated / AI-planned multi-step work** delivered at **artifact/PR granularity** for review. Oversight surface = the *gate*.
 - Apply either or **both** (paper compares/spans modes); **neither** = mode unspecified / irrelevant to the paper's claim. **The pair describes the *generation* studied:** "uses agents" ≠ `agentic`, "AI assists the human" ≠ `assistive` — AI only on the review/oversight side → **neither** + consider `general-code`. **Tie-rule:** initiator vs reviewable unit disagree (human-prompted chat task → complete artifact) → **the reviewable unit dominates** (wholesale artifact = the gate = `agentic`).
 
@@ -69,7 +69,9 @@ Pick **one PRIMARY theme** (the paper's home / where it'd be written up in depth
 # YOUR TASK
 Tag one CORE paper against the vocabulary above from its FULL TEXT below. Assign every theme the paper is
 a genuine MEMBER of, choose ONE primary theme (tie-breaker: the theme carrying the paper's DISTINCTIVE
-CONTRIBUTION/novelty, not standard scaffolding), and add any facet tags. Output ONLY one JSON object:
+CONTRIBUTION/novelty, not standard scaffolding), and add any facet tags. Apply the STEERING
+EXCLUSION and the PLUMBING RULE before assigning solution themes. Answer the FIVE-QUESTION FACET
+CHECKLIST (role / form / scope / mode / contribution) before finalizing facets. Output ONLY one JSON object:
 {"key":"<KEY>","primary_theme":"<slug>","themes":["<slug>",...],"facets":["<slug>",...],"rationale":{"<slug>":"<=12 words"}}
 Use bare slugs. Base every tag on document content.
 
