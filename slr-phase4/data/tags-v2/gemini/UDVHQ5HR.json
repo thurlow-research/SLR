@@ -1,3 +1,1 @@
-```json
-{"key":"jin-2025-uncovering","primary_theme":"ai-review","themes":["ai-review"],"facets":["general-code"],"rationale":{"ai-review":"Evaluates reliability limits of LLMs acting as automated code reviewers."}}
-```
+{"key": "jin-2025-uncovering", "primary_theme": "ai-review", "themes": ["ai-review"], "facets": ["general-code"], "rationale": {"ai-review": "Evaluates reliability limits of LLMs acting as automated code reviewers."}}

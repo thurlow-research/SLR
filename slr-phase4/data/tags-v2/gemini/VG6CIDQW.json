@@ -1,0 +1,1 @@
+{"key": "Lumen", "primary_theme": "oversight-explanation", "themes": ["oversight-explanation"], "facets": ["framework", "built-system", "assistive", "steering"], "flags": ["demote:context"], "rationale": {"oversight-explanation": "Provides visibility into the context the AI uses (steering-only solution)."}}

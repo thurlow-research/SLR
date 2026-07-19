@@ -319,6 +319,21 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   and *introducing* automation-bias risk by design is a rationale-level critique, distinct from
   `automation-bias` membership (which requires *studying* the failure). **Instrument FROZEN as v2**
   → Set A retag (improvement gate) → Set B.
+- **Set A retag under v2 (2026-07-18, three fresh models):** improvement across every metric —
+  primary fable 6/10→8/10, codex 6→7, gemini 6→7; theme Jaccard .50–.66 → .67–.78; **facet Jaccard
+  roughly doubled** (.34–.42 → .61–.70); demote flags 8–9/10 correct. Both v1 unanimity errors
+  (Lumen, 22JBEZNK) now called correctly by all three. Residual misses concentrate in 3 papers:
+  2CKL96B8 (all three follow the *operationalized* biggest-tent to ai-code-insecurity — the written
+  rule now diverges from the human's recorded intent; paper is demote-flagged), F9JM9CI6 (stable
+  unanimous ranking call at the new ai-review↔oversight-explanation adjacency), UB2EVUFU
+  (codex+gemini overcorrect to primary remediation-gating after the D2/D3 text raised its salience;
+  gemini violated the then-unstated primary∈themes constraint).
+- **Round-2 smoke test (fresh Fable, v2 text only): 10 revision-introduced defects found & fixed** —
+  primary∈themes schema line added; best-effort-primary-when-demoting contradiction resolved;
+  task-block demote copy restored the benchmark-evaluating-a-contributed-system carve-out; stale
+  tag count; steering splice regrammared; formal-methods intro-framing marked as *facet*; rationale
+  coverage specified; primary triple-definition cross-referenced; demote:discard given criteria;
+  remediation-gating density split (anti-pattern note → sub-bullet). Cross-references verified clean.
 
 ---
 
