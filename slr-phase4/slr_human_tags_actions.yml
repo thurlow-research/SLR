@@ -236,6 +236,22 @@ actions:
     menu: "[SLR] facet:non-developer"
     enabled: true
     name: "[SLR] facet:non-developer"
+  slr-facet-counterpoint:
+    event: 0
+    operation: 3
+    data: "cal:human:facet:counterpoint"
+    shortcut: ""
+    menu: "[SLR] facet:counterpoint"
+    enabled: true
+    name: "[SLR] facet:counterpoint"
+  slr-facet-general-code:
+    event: 0
+    operation: 3
+    data: "cal:human:facet:general-code"
+    shortcut: ""
+    menu: "[SLR] facet:general-code"
+    enabled: true
+    name: "[SLR] facet:general-code"
   slr-demote-context:
     event: 0
     operation: 3

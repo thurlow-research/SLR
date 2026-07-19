@@ -213,6 +213,30 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   `remediation-gating` + `agentic`/`built-system`/`framework`/`steering`. Re-run checks: do models
   stop tagging `rules-based-checks` here, and does Opus's primary move to `ai-review`?
 
+## 15. The F9JM9CI6 probe — `counterpoint` + `general-code` facets; mode-pair clarifier
+- **Gaps (2026-07-18):** on "Support, not automation" (AI-supported review *prep* — agents generate
+  higher-level code descriptions for the reviewer): (a) nothing captured **stance polarity** — the
+  paper argues *against* review-automation maximalism, and the earmarked "contrarian hunt" had no
+  operationalization; (b) nothing captured the **object-of-oversight** — the mechanism targets code
+  review *generally* (the reviewed code isn't AI-authored; the AI sits on the review side only), so
+  on tags alone the paper reads broader than it is; (c) the human tagged mode twice, reversing
+  (`assistive` → `agentic`), because both slugs invite readings the definition doesn't support
+  ("uses agents", "AI assists the human").
+- **Change:** **`counterpoint`** role facet (argues against a prevailing position; direction-agnostic,
+  rationale records what's opposed; Discussion-balance + confirmation-bias defense).
+  **`general-code`** scope flag (object = code generally, not AI code; transfers but wasn't
+  developed/evaluated on AI code), completing the wrong-object family: `general-ai` (model) ·
+  `general-code` (any code) · `non-developer` (population) · `steering` (contribution). Mode-pair
+  **clarifier**: the pair describes the *generation* studied — AI only on the review/oversight side
+  → tag *neither*. Facet checklist updated (role +counterpoint; scope +general-code). Facets 12 → 14;
+  menu 30 → 32 actions.
+- **Narrowness ruling:** the paper's thin scenario (review-prep only) is **extent, deliberately not
+  tagged** — carried by primary, rationale, child note, and the withheld `framework`/`built-system`;
+  a narrowness scalar would have poor reliability (every paper is narrow along some axis).
+- **Outcome:** F9JM9CI6 expected final set: primary `ai-review` + `oversight-explanation`/
+  `risk-routing`; facets `intro-framing` + `counterpoint` + `general-code`, **no mode facet**
+  (`agentic` removed). Re-run check: do models apply `general-code` instead of a mode facet here?
+
 ---
 
 ### Headline for the writeup

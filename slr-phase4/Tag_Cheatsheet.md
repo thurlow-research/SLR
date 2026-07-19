@@ -40,6 +40,7 @@ Pick **one PRIMARY theme** (the paper's home / where it'd be written up in depth
 - `survey-input` — adoption / preference / RAI-priority finding useful for the org survey design
 - `intro-framing` — position / agenda / definitional paper that *names the gap*
 - `lit-review` — secondary literature (survey / review / meta-analysis)
+- `counterpoint` — [role facet] the paper **argues against a prevailing position** (automation-maximalism, HITL value, oversight scaling — any direction); note *what it opposes* in the rationale. Often pairs with `intro-framing`
 
 **Artifact / evidence cluster** (composable; form → maturity):
 - `framework` — a **technical framework / reference architecture integratable into a build pipeline** (whether or not built). ≠ `theme:org-governance` (the org apparatus). A bare taxonomy/decision-model gets neither. Composes: `framework`+`built-system`+`adopted`.
@@ -50,14 +51,15 @@ Pick **one PRIMARY theme** (the paper's home / where it'd be written up in depth
 **Generation-mode scope pair** (which *setting* the paper studies; cut on **who initiates + the reviewable unit**, NOT tool location — agents live in IDEs too):
 - `assistive` — **human-initiated, suggestion-granularity** generation (inline completion, chat-paste): the human authors in the flow, accepts piece-by-piece. Oversight surface = the *acceptance moment*.
 - `agentic` — **AI-initiated / AI-planned multi-step work** delivered at **artifact/PR granularity** for review. Oversight surface = the *gate*.
-- Apply either or **both** (paper compares/spans modes); **neither** = mode unspecified / irrelevant to the paper's claim.
+- Apply either or **both** (paper compares/spans modes); **neither** = mode unspecified / irrelevant to the paper's claim. **The pair describes the *generation* studied:** "uses agents" ≠ `agentic`, "AI assists the human" ≠ `assistive` — AI only on the review/oversight side → **neither** + consider `general-code`.
 
 **Contribution / population flags:**
 - `steering` — [contribution flag] the paper's proposed solution **or documented practice** (wholly/partly) operates on **generation** (prompts, specs, fine-tuning, shaping model inputs) rather than inspecting/gating the artifact. **Contribution, not topic.** Steering-**only** solution → demote candidate
 - `non-developer` — [scope flag] the generating/overseeing human is **not a professional developer** (end-user / business user / citizen developer). Default (untagged) = professional devs
+- `general-code` — [scope flag] the oversight/review mechanism targets **code generally, not AI-generated code** (AI may sit on the *review* side only); transfers to our setting but wasn't developed/evaluated there. Default (untagged) = the overseen object is AI code
 
 ## WORKFLOW
-- **Facet checklist — run all five questions on every paper** (misses cluster here; 29 tags exceed recall): **role** (problem-statement-anchor / survey-input / intro-framing / lit-review)? · **form** (framework → built-system → adopted)? · **scope** (general-ai? non-developer?)? · **mode** (assistive / agentic)? · **contribution** (steering)?
+- **Facet checklist — run all five questions on every paper** (misses cluster here; 29 tags exceed recall): **role** (problem-statement-anchor / survey-input / intro-framing / lit-review / counterpoint)? · **form** (framework → built-system → adopted)? · **scope** (general-ai? general-code? non-developer?)? · **mode** (assistive / agentic)? · **contribution** (steering)?
 - **PRIMARY** (one per paper; not in the menu — type it): `cal:human:primary:theme:<slug>` (same tail as the membership tag, `primary:` prepended).
   - **Tie-breaker** when a paper spans adjacent themes (route↔control-surface, AI-check↔human-gate): primary = the theme carrying its **distinctive novelty**, not the standard scaffolding.
 - **DEMOTE flag** (menu): `demote:context` — this core looks like it belongs in context (any reason: general-AI, tool-benchmark, not operationalizable). Flag it and keep going; batch-reviewed later. (`demote:discard` by the same pattern.)

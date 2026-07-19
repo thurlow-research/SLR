@@ -79,6 +79,15 @@ a mechanism; cite in the Introduction. Usually context-tier (+ often `lit-review
 snowball source.
 - `5I2W8IC6` — systematic review mapping trust/distrust concepts for LLMs in SE.
 
+**`counterpoint`** (role facet, added 2026-07-18) — the paper **argues against a prevailing position**
+in the AI-coding/oversight discourse: full-automation maximalism, the value of HITL, oversight
+scaling — any direction. **Direction-agnostic**: record *what it opposes* in the rationale (a paper
+can be contrarian toward automation yet aligned with this review's thesis, or vice versa). Two jobs:
+(a) the Discussion's alternative-views roster / confirmation-bias defense; (b) operationalizes the
+earmarked "contrarian hunt" — the roster accumulates during tagging rather than a separate later
+hunt. Often co-occurs with `intro-framing`; absence = no counter-position staked.
+- `F9JM9CI6` — against review-automation maximalism (note the polarity: *pro*-human-oversight).
+
 **Artifact / evidence cluster** (added 2026-07-15) — three composable facets capturing the *form and
 maturity* of the contribution, powering the **proposed-vs-adopted** adoption story (esp. formal-methods
 aspirational-vs-niche). Ladder: `framework` → `built-system` → `adopted`.
@@ -129,7 +138,10 @@ is the wrong axis, since agents live in IDEs too (Cursor, Copilot agent mode):
   Detect→Triage→Fix→Escalate pipeline mostly presupposes).
 
 Apply either or **both** (a paper that compares or spans modes); **neither** = the paper doesn't
-specify, or mode is irrelevant to its claim (same absence convention as `adopted`). Two jobs:
+specify, or mode is irrelevant to its claim (same absence convention as `adopted`).
+**Clarifier (2026-07-18, F9JM9CI6):** the pair describes the **generation** studied — "uses agents"
+≠ `agentic`, and "AI assists the human" ≠ `assistive`. A paper whose AI sits only on the
+*review/oversight* side studies no AI generation → tag **neither**, and consider `general-code`. Two jobs:
 (a) **synthesis separation** — which oversight evidence/mechanisms belong to which mode; (b) **survey
 stratification** — mode-specific items in the org survey.
 - Illustrative: `3Z45M3V3` / `YBHHYR4P` — assistive (Copilot-snippet CWEs / users trust insecure code
@@ -150,6 +162,18 @@ scope). Illustrative: `VG6CIDQW` (Lumen — context control over the assistant's
 steering 2026-07-18, a big part of the system; its oversight remainder is `oversight-explanation`
 pull); `DPKKMXSA` (prompt-enhancement as the fix); the spec-driven cluster (`C88VGWMI` `7SH86C2W`
 `JCTP8VXP`, context-tier).
+
+**`general-code`** (scope flag, object axis, added 2026-07-18) — the paper's oversight/review
+mechanism targets **code generally, not AI-generated code specifically**; the AI (if any) sits on
+the *oversight side* (review support), not the producing side. Such work *transfers* to the AI-code
+setting but wasn't developed or evaluated there — keep it distinguishable so synthesis doesn't
+overclaim (mechanisms *built for* AI code vs mechanisms *imported from* general review practice).
+Default (untagged) = the overseen object is AI-generated code. Completes the wrong-object tripwire
+family: `general-ai` (object = the model) · `general-code` (object = any code) · `non-developer`
+(population) · `steering` (contribution type). Doubles as the audit trail for the "broader-setting
+oversight that transfers" triage rule when such a paper is kept core.
+- `F9JM9CI6` — AI-supported review prep (agents generate higher-level descriptions for the reviewer)
+  for code review *in general*; kept core (augment-vs-replace), object = general code.
 
 **`non-developer`** (scope flag, population axis, added 2026-07-18) — the generating/overseeing
 human studied is **not a professional developer**: end-user, business user, citizen developer —
