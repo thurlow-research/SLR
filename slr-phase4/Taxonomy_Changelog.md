@@ -384,10 +384,10 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   ON, intro-framing OFF per the contradiction rule; also reconciled: restored to the 01-AI
   Calibration collection (the calibration roster is frozen experiment infrastructure, orthogonal to
   disposition) + retroactive `demote:context` (its 2026-07-15 demotion predated the flag mechanism).
-  F9JM9CI6: assessment = **stays intro-framing** (block-diagram vision; the authors' own
-  contribution list defers realization to a research agenda — fails buildable detail); Scott's
-  explicit keep/no ruling still pending. The other seven calibration papers: four built, three
-  propose nothing — facet correctly inapplicable.
+  F9JM9CI6: **RULED design-only (Scott, 2026-07-20 — overriding the assistant's stays-intro-framing
+  assessment; §23)** — a stated architectural-design contribution meets buildable detail even with
+  realization deferred to a research agenda; intro-framing off per the contradiction rule. The
+  other seven calibration papers: four built, three propose nothing — facet correctly inapplicable.
 
 ## 20. `metrics` facet + risk-routing signal boundary (R4WJZBSF follow-on) → v2.3
 - **Gap (2026-07-20, Set B pass):** R4WJZBSF defines four regulatory/ethical-risk indices with
@@ -472,13 +472,40 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   36 → 39 (re-import pending); all copies in lockstep. **Instrument = v2.5.**
 - **Adjudications encoded (Scott, 2026-07-20):** R4WJZBSF flags = risk-ip + risk-bias +
   risk-quality + risk-overreliance (all four metrics define-level); themes `automation-bias` and
-  `oversight-explanation` come OFF (define-only; wrong object respectively). **Still pending:**
-  Scott's explicit ruling on the what+how core-bar carve-out (discussed and pressure-tested — the
-  rule "names the elements to track + defines operationalizable metrics = clears bar (2) as
-  measurement" holds up, no back-catalogue precedent flips — but not yet encoded in §3/conventions;
-  R4WJZBSF carries no demote flag meanwhile) and the F9JM9CI6 design-only keep/no.
+  `oversight-explanation` come OFF (define-only; wrong object respectively). Both then-pending
+  rulings (what+how core-bar carve-out; F9JM9CI6 design-only) were **confirmed by Scott the same
+  day → §23**.
 - **Outcome:** pending — the Set B model run tests bar compliance on five flags (risk-security =
   codex salience bait); Set C's ZUM76CCG tests define-vs-route from the AI-first side.
+
+## 23. Two arbiter rulings: the what+how core-bar carve-out; F9JM9CI6 = design-only (→ v2.6)
+- **Ruling 1 — what+how carve-out (Scott, 2026-07-20).** A paper that **names the risk/quality
+  elements to track AND defines operationalizable metrics for tracking them** (full specification:
+  formulas/thresholds/tools) **clears core bar (2) as measurement, even unevaluated**. Rationale
+  (as pressure-tested): instrumentation *specification* is solution characterization — the Triage
+  stage's computed producer-independent signals have to come from somewhere — not mere
+  applicability; "value to the survey" is explicitly NOT the rationale (survey-input papers have
+  value at context tier). This **amends the 2026-07-13 trap clause** ("do the measuring or the
+  gating") — defining the instrumentation now counts as doing solution-work. Back-catalogue
+  checked: no prior call flips (VP7TS6CX/DPKKMXSA/UDVHQ5HR/2CKL96B8/M74M3RFJ demote reasons all
+  untouched). Class consequence accepted: what+how metric papers stay core with
+  `design-only`+`metrics` as markers; what-only enumerations and borrowed-metrics papers remain
+  context candidates; demote stays reserved for its listed triggers. Encoded in: `slr-conventions`
+  quick discriminators, `SLR_Status_Update_2026-07-08.md` §3 (dated amendment), the `design-only`
+  line in all compressed copies. First application: **R4WJZBSF kept core, no demote** (the paper's
+  fabricated-evaluation problem is documented by `design-only`'s mock-demo clause; quality ≠ tier).
+- **Ruling 2 — F9JM9CI6 = `design-only` (Scott, 2026-07-20, overriding the assistant's
+  assessment).** A **stated architectural-design contribution** (F9JM9CI6 §3: AI-OS-based review
+  platform architecture) **meets the buildable-detail bar even when the authors defer realization
+  to a research agenda**; `intro-framing` comes off per the contradiction rule (`counterpoint` +
+  `general-code` retained; no mode facet — unchanged). F9JM9CI6 becomes the *inclusive*-side
+  worked example of the design-only/intro-framing boundary (R4WJZBSF = the mock-demo side;
+  genuinely mechanism-free gap-naming papers remain intro-framing). Zotero updated (design-only
+  added 2026-07-20 after a concurrent-edit check — Scott had removed intro-framing; the audit of
+  all 10 calibration items found no other drift). **Instrument = v2.6** (text-only; menu unchanged
+  at 39).
+- **Outcome:** pending the re-run — watch whether models apply design-only to F9JM9CI6-class
+  visions (stated-architecture clause) without over-firing on pure position papers.
 
 ---
 

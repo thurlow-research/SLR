@@ -143,10 +143,16 @@ and powers the synthesis claim "N of the solution papers exist only on paper."
   `adopted`; composes with `framework` (a proposed reference architecture = `framework` +
   `design-only`). Completes the maturity spectrum: `intro-framing` (gap named) → `design-only`
   (mechanism designed) → `built-system` (running) → `adopted` (in real use).
+  **Inclusive-side ruling (Scott, 2026-07-20, §23):** a *stated architectural-design contribution*
+  (F9JM9CI6's AI-OS review-platform architecture) meets buildable detail even when the authors
+  defer realization to a research agenda — F9JM9CI6 is the worked example on this side; genuinely
+  mechanism-free gap-naming papers remain `intro-framing`.
 - **Disposition tripwire** (parallel to steering-only and `general-ai`): a design-only *solution*
   paper meets the "proposes an unevaluated methodology/framework → context" discriminator — check
   the core bar / `demote:context` candidate. Not automatic: a novel central framework can stay core
-  by the promote exception.
+  by the promote exception, **and the what+how carve-out (arbiter ruling 2026-07-20, §23) keeps a
+  paper core when it names the elements to track AND defines operationalizable metrics for tracking
+  them — instrumentation specification clears bar (2) as measurement even unevaluated (R4WJZBSF).**
 - **Slug rationale:** chosen over `proposal` — every solution paper "proposes" something, so that
   slug invites over-firing (the `ai-review` slug-connotation lesson, §13); the exclusion lives in
   the name. Re-run regression pair: `R4WJZBSF` (design-only) vs the built Set A systems

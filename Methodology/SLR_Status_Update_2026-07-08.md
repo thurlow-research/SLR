@@ -43,6 +43,13 @@ Operational discriminators adopted during review (for reproducibility):
 - **Human oversight** (review/escalation/risk-triage) = in scope; **agent self-conformance / "make the agent follow best practices"** = out of core.
 - **Secondary literature** (surveys, reviews, meta-analyses) → default context + `lit-review` tag (mined for reference-snowballing); promoted to core only for a novel central framework, a prior review on the exact topic, or an on-scope meta-analysis. ("Literature review" ≠ "code review" — the code-review-practice papers are primary domain content.)
 - **Framing/definitional** sources kept tight — one empirically-grounded anchor at core; additional definitions → context.
+- **What+how carve-out (AMENDMENT, arbiter ruling 2026-07-20 — `slr-phase4/Taxonomy_Changelog.md`
+  §23):** a paper that **names the risk/quality elements to track AND defines operationalizable
+  metrics for tracking them** (full specification: formulas/thresholds/tools) **clears core bar (2)
+  as measurement even when unevaluated** — instrumentation *specification* is solution
+  characterization, not mere applicability. Evaluation status is carried by the `design-only`
+  facet, not demotion. What-only enumerations and borrowed-metrics papers remain context
+  candidates. First ruled on `R4WJZBSF`.
 
 ## 4. Quality-assurance findings (finalized)
 
