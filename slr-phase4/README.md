@@ -80,3 +80,7 @@ Model panel: `opus` (Claude Opus) · `fable` (Claude Fable 5) · `codex` (gpt-5.
   mention-saturation); risk-routing boundary: signal-without-allocation ≠ routing.
   Risk-quantification family staged with sweep-cluster tripwire. Facets 16; menu 34
   (**re-import pending**).
+- **2026-07-20 — `risk-ip` + `risk-bias` risk-type flags (v2.4, changelog §21).** The harms axis
+  for the synthesis risk×mitigation matrix; substantive-treatment bar (never intro-lists); homeless
+  types only (themed risks are their own columns); checklist now six questions. Facets 18;
+  **menu 36 (re-import pending)**.

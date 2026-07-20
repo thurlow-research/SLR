@@ -268,6 +268,22 @@ actions:
     menu: "[SLR] facet:metrics"
     enabled: true
     name: "[SLR] facet:metrics"
+  slr-facet-risk-ip:
+    event: 0
+    operation: 3
+    data: "cal:human:facet:risk-ip"
+    shortcut: ""
+    menu: "[SLR] facet:risk-ip"
+    enabled: true
+    name: "[SLR] facet:risk-ip"
+  slr-facet-risk-bias:
+    event: 0
+    operation: 3
+    data: "cal:human:facet:risk-bias"
+    shortcut: ""
+    menu: "[SLR] facet:risk-bias"
+    enabled: true
+    name: "[SLR] facet:risk-bias"
   slr-demote-context:
     event: 0
     operation: 3

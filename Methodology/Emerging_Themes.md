@@ -258,6 +258,25 @@ candidate (escalation presupposes a competent receiver; democratization removes 
 `HOS_Seeded_Theme_Candidates.md`): if flagged papers accumulate making that argument, it promotes.
 Illustrative: `22JBEZNK` — business users can't detect flaws in AI analyses even when warned.
 
+**`risk-ip` / `risk-bias`** (risk-type flags, added 2026-07-20) — **substantive treatment** of a risk
+type with **no theme home**: `risk-ip` = IP / plagiarism / licensing exposure of AI-generated code;
+`risk-bias` = biased content or decisions in generated code. **Substantive = at least one of:**
+defines a metric for it · contributes/evaluates a mitigation for it · reports an empirical result
+about it · devotes focal analysis to it. An intro risk-list sentence = mention, no tag.
+- **A deliberate, bounded exception to membership-not-mention**, justified by the synthesis
+  deliverable it powers: the **risk×mitigation matrix** — which harms the corpus identifies vs which
+  have actual mechanisms; the gap cells (identified-but-unmitigated) are Discussion findings.
+- **Themed risks get NO flag** — security (`ai-code-insecurity`), quality (`quality-debt`),
+  over-reliance (`automation-bias`), explainability deficit (`oversight-explanation`) supply their
+  own matrix columns; duplicate flags would saturate (the reason a generic `risks` facet was
+  rejected, §20).
+- **Extensible on the same bar** if the sweep surfaces another homeless type (privacy the likely
+  third). **Promotion path:** a cluster at contribution level converts flag → theme, definition
+  ready-made.
+- Genesis: `R4WJZBSF` (PRS/BPI = defined metrics for both types → earns both flags); informal
+  corpus recurrence of IP risk observed by the arbiter; HOS's IP scanner = experiential
+  corroboration (kin, not driver — the HOS guardrail holds). Changelog §21.
+
 ---
 
 ### THEME TAGS
@@ -616,6 +635,11 @@ Cross-cutting: `agent-scope-drift`.
   facet was considered and rejected — mention-saturation). Paired with the `risk-routing` boundary
   line: signal-without-allocation ≠ routing (the R4WJZBSF stretch). Risk-quantification instrument
   family staged with a sweep-cluster tripwire. Facet count 15 → 16; menu 33 → 34. Changelog §20.
+- **`risk-ip` + `risk-bias` risk-type flags — ADDED (Scott, 2026-07-20, Set B pass).** Bounded
+  membership-exception flags for risk types with no theme home, powering the synthesis
+  risk×mitigation matrix; substantive-treatment bar (metric / mitigation / empirical result / focal
+  analysis — never intro-lists); themed risks excluded (their themes are the columns). Facet count
+  16 → 18; menu 34 → 36; facet checklist five → six questions. Changelog §21.
 
 ⚠️ **Namespace note:** a *legacy* topical `theme:*` set already exists at scale (`theme:governance` 170,
 `theme:oversight` 163, `theme:risk` 104, `theme:orgs` 105, …) from an earlier bulk pass. Exact-slug

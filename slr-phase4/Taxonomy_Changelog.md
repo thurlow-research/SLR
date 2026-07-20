@@ -424,6 +424,29 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   contrast case); watch whether models stretch `risk-routing` on metric-definition papers in the
   Set B run.
 
+## 21. `risk-ip` + `risk-bias` risk-type flags — the harms axis (→ v2.4)
+- **Gap (2026-07-20, R4WJZBSF follow-on):** the synthesis needs a **risk-types ×
+  identified/mitigated matrix** — which harms the corpus recognizes, which have actual mechanisms;
+  the gap cells (identified-but-unmitigated) are Discussion findings. The theme spine organizes
+  *mechanisms*, not *harms*; four risk types have theme columns (security / quality / over-reliance /
+  explainability-deficit) but **IP/plagiarism and code-bias have no home**, and rationale free-text
+  can't be queried into a matrix. Arbiter reports informal recurrence of IP risk across the corpus;
+  HOS ships an IP scanner (experiential corroboration — kin, not driver). The §20 measurand
+  tripwire was designed to wait for recurrence; the arbiter ruled it has effectively fired for
+  these two types.
+- **Change:** **`risk-ip` / `risk-bias`** risk-type flags. **Substantive-treatment bar** (defines a
+  metric for it · contributes/evaluates a mitigation · reports an empirical result · focal
+  analysis; an intro risk-list sentence = mention, no tag); **scoped to homeless types only** —
+  themed risks get no flag (saturation guard; the same reason the generic `risks` facet was
+  rejected in §20). A **deliberate, bounded exception to membership-not-mention**, justified by the
+  synthesis axis it serves. Extensible on the same bar (privacy = likely third); promotion path:
+  contribution-level cluster → theme, definition ready-made. Facet checklist gains a sixth
+  question (**risk-types**); stale "31 tags" count corrected to 35. Facets 16 → 18; menu 34 → 36
+  (re-import pending); all copies in lockstep. **Instrument = v2.4.**
+- **Outcome:** pending — R4WJZBSF earns both flags (PRS/BPI are *defined metrics* for the two
+  types — passes the bar via its first clause). Watch model compliance with the substantive bar in
+  the Set B run: intro risk-lists are salience bait (codex breadth signature especially).
+
 ---
 
 ### Headline for the writeup

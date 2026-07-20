@@ -6,10 +6,11 @@ Read the **document contents** (each paper is in Zotero → **02-Human Calibrati
 **How to record:** fill the template at the bottom (or tag in Zotero — your call). For each paper:
 - **Primary** = the one home theme. Tie-breaker: distinctive novelty, not scaffolding. **Altitude:** prefer the most specific theme that still captures where the paper's main effort lives — but a component mechanism inside a broader contribution does not outrank it.
 - **Themes** = all `theme:` slugs that fit (membership, not mention).
-- **Facets** = any facet tags that apply. **Run the five-question facet checklist on every paper**
+- **Facets** = any facet tags that apply. **Run the six-question facet checklist on every paper**
   (misses cluster here): **role** (anchor / survey-input / intro-framing / lit-review / counterpoint)? · **form**
   (design-only | framework → built-system → adopted)? · **scope** (general-ai? general-code? non-developer?)? · **mode**
-  (assistive / agentic)? · **contribution** (steering? metrics?)?
+  (assistive / agentic)? · **contribution** (steering? metrics?)? · **risk-types** (risk-ip? risk-bias? —
+  substantive treatment only, never intro-lists)?
 - **Thin input:** if only title+abstract (or degenerate text) is available → tag conservatively (no form facets / `lit-review` unless explicit in the abstract) and flag `insufficient-input` instead of guessing.
 - **Struggle signals → check the core bar:** can't pick a primary / stretching a definition = likely `demote:context`.
 - **Thin input:** title+abstract only → tag conservatively (no form facets / `lit-review` unless explicit) + flag `insufficient-input`.
@@ -85,12 +86,13 @@ Pick **one PRIMARY theme** (the paper's home / where it'd be written up in depth
 - `agentic` — **AI-initiated / AI-planned multi-step work** delivered at **artifact/PR granularity** for review. Oversight surface = the *gate*.
 - Apply either or **both** (paper compares/spans modes); **neither** = mode unspecified / irrelevant to the paper's claim. **The pair describes the *generation* studied:** "uses agents" ≠ `agentic`, "AI assists the human" ≠ `assistive` — AI only on the review/oversight side → **neither** + consider `general-code`. **Tie-rule:** initiator vs reviewable unit disagree (human-prompted chat task → complete artifact) → **the reviewable unit dominates** (wholesale artifact = the gate = `agentic`).
 
-**Scope / contribution / population flags:**
+**Scope / contribution / population / risk-type flags:**
 - `general-ai` — [scope flag] governance/oversight is **general AI/LLM, not coding-specific** (model robustness, general RAI frameworks). Default (untagged) = coding-specific. Flags candidates for context.
 - `steering` — [contribution flag] the paper's proposed solution **or documented practice** operates on **generation** (prompts, specs, fine-tuning, shaping model inputs) rather than inspecting/gating the artifact, as a **substantive part of the contribution** — NOT any incidental prompt-shaping component every AI system has. **Contribution, not topic.** Steering-**only** solution → demote candidate
 - `metrics` — [contribution flag] the paper **defines metrics/scores/indices** (risk, quality, oversight, compliance) **as a deliverable** — not merely *uses* metrics to evaluate something (every empirical paper has an evaluation apparatus; that gets nothing). **Contribution, not apparatus.** The metrics' *object* comes from co-tagged themes (+`regulatory-compliance` = compliance-risk metrics; + an oversight theme = oversight metrics). Composes with `design-only` (defined, never run on real data — R4WJZBSF) or with problem themes (defined AND applied → the findings earn the theme; the facet marks the reusable instrument). **Rationale MUST name the measurand** ("regulatory-risk exposure", "defect likelihood", "review coverage"), not just the domain
 - `non-developer` — [scope flag] the generating/overseeing human is **not a professional developer** (end-user / business user / citizen developer). Default (untagged) = professional devs
 - `general-code` — [scope flag] the oversight/review mechanism targets **code generally, not AI-generated code** (AI may sit on the *review* side only); transfers to our setting but wasn't developed/evaluated there. Default (untagged) = the overseen object is AI code
+- `risk-ip` / `risk-bias` — [risk-type flags] **substantive treatment** of a risk type with **no theme home**: `risk-ip` = IP/plagiarism/licensing exposure of AI-generated code · `risk-bias` = biased content/decisions in generated code. **Substantive = at least one of:** defines a metric for it · contributes/evaluates a mitigation for it · reports an empirical result about it · devotes focal analysis. **An intro risk-list sentence = mention, NO tag.** Themed risks get NO flag (security→`ai-code-insecurity` · quality→`quality-debt` · over-reliance→`automation-bias` · explainability→`oversight-explanation` — they're already matrix columns). Feeds the synthesis risk×mitigation matrix; a contribution-level cluster promotes flag → theme
 
 
 ---
