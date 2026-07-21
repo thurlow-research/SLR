@@ -144,6 +144,13 @@ relative to unseen sweep papers. Disclose it.
 - `slr-phase4/data/tags*/` — per-model tag JSONs for every run vintage (v1, v2, v2.1, v2.13);
   `data/tags-v213/human_gold.json` = the adjudicated human sets.
 - Hedwig full text: `slr-phase4/txt/T72TU8B5.txt`.
+- **`Handoffs/Tag_Prompt_ASSIGNMENT_hedwig-free.md`** — the assignment's experimental prompt: the
+  live v2.13 prompt with the two Hedwig references replaced (framework exemplar "(VibeGuard,
+  Hedwig)" → "(VibeGuard, CodeAgent)"; the tie-breaker's worked example swapped for a
+  structurally-parallel diff-risk-gate example that neither names nor describes Hedwig's
+  mechanism). **Use THIS for any model re-runs on Hedwig** — the live prompt names Hedwig's
+  answer, which contaminates the experiment (the worked-example-leakage caveat, made concrete).
+  The live instrument is unchanged; this variant exists only for the assignment.
 
 ## 8. Ground rules for the Desktop session
 
