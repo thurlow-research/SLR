@@ -372,5 +372,27 @@ measures the models against a vetted instrument and disagreement becomes attribu
 | — | `M74M3RFJ` | A | verified (pre-pass tags stand): primary `regulatory-compliance` + `general-ai`/`framework`/`intro-framing`; demoted core→context 2026-07-15 | none — the `general-ai` tripwire case, already §6. **2026-07-20 reconciliation:** restored to the 01-AI Calibration collection (roster = frozen infrastructure); +`demote:context` (predated the flag); +`design-only` (2nd confirmed — GSN exemplars, engine = future work); −`intro-framing` (contradiction rule) |
 | 11 | `R4WJZBSF` | B | **COMPLETE 2026-07-20** (blind snapshot v156638; blind read + model-aware adjudication): blind primary `risk-routing` → final **`regulatory-compliance`** + `hitl-workflow`; facets `metrics`/`framework`/`design-only`/`risk-ip`/`risk-bias`/`risk-quality`/`risk-overreliance`; no mode facet; **core, no demote** (what+how carve-out). Blind primary = the signal-without-allocation stretch — the boundary's first catch. Two define-only theme over-tags (`automation-bias`, `quality-debt` + `oversight-explanation`) caught in audit and removed | changelog §19 (`design-only`), §20 (`metrics` + routing boundary), §21–§22 (risk-flag family), §23 (what+how carve-out — this paper's ruling) — the most instrument-productive paper of the calibration |
 | 12 | `6DXZGHD9` | B | **COMPLETE 2026-07-20** (blind snapshot v156680; final v156686): blind primary `ai-code-insecurity` (sole theme) → final **`org-governance`** + `ai-code-insecurity` secondary; facets `built-system`/`metrics`/`risk-security`/`risk-quality`/`risk-overreliance`/`survey-input`; `framework` OFF (pipeline test); no mode facet. **Four arbiter reads to converge** (detection → governance assessment) — logged as diagnostic: if models scatter here, human difficulty predicted it. Template-family caution (ANN-ISM) in child record | changelog §24: risk-quality consistency catch (PA-2 = PA-5 clause); metrics measurand settled by output-is-the-score test; Set B consultation Q&A on this paper produced the lit-review framing rule + input-side expert-panel ruling |
-| — | *Set B process note* | B | Papers 1, 3–8 remain fully clean (no model tags, no audit dialogue). Instrument-consultation Q&A during Set B (definition questions answered at rule level, papers unread by the assistant except post-tagging audits of #10/#2) produced the §24 clarifiers — all landed in instrument text the models will also see | — |
+| — | *Set B process note (superseded same day — see the co-tagging protocol below)* | B | Original note: papers 1, 3–8 fully clean. By EOD 2026-07-20 the audit loop had extended to papers 1 (B644HQFS), 4 (7V7SRG43), and 6 (BAWCBT9R); only **3, 5, 7, 8 (E95T8E88, UW2R6BBJ, E3E5YA2E, 5VTAJISY)** remain audit-free (+ TF56EPIP backfill pending). No Set B paper has model tags | — |
+
+**Co-tagging protocol (named 2026-07-20; documented for the methods chapter).** During Set B the
+working mode evolved from "human tags blind, alone" into **co-tagging**: (1) the human tags each
+paper blind (no model tags exist; the assistant has not read the paper); (2) on request, the
+assistant audits the tag set against the instrument text and the full text — consistency checks,
+rule-pointers, textual evidence — and answers definition questions at rule level; (3) the arbiter
+rules on every delta; (4) every boundary that catches or nearly catches the human lands in the
+compressed instrument the same day (compression-gap principle). **Yield:** instrument v2.2 → v2.10
+in two days (changelog §19–§27: design-only, metrics, the five-flag risk family, the method
+family, the what+how carve-out, ~a dozen boundary rules), a per-paper catch record (define-only
+over-tags, word-trap saves, the §13 worked-pair miss on 7V7SRG43), and near-model-error
+prediction (the human's difficulty spots flag where models are expected to scatter).
+**Comparability accounting (state precisely in writeups):** Set B audited papers are **"blind
+first read + AI-audited adjudication, model-tag-free"** — the audit assistant sees the paper only
+*after* the human's blind set is recorded. The **blind layer is preserved** as pre-audit Zotero
+versions: R4WJZBSF v156638 · 6DXZGHD9 v156680 · B644HQFS v156722 · BAWCBT9R v156730 · 7V7SRG43
+v156742. Scoring plan: **headline = models vs the final adjudicated sets** (the gold standard the
+co-tagging produced); secondary = models vs the blind snapshots (human-solo performance).
+**Disclosed confound:** the instrument moved during the pass (v2.2→v2.10), so blind tags for
+early papers predate rules the models will see (the §9 confound's smaller sibling); the final
+adjudicated sets are all consistent with v2.10. The fully-clean comparison role now rests on the
+four audit-free papers + **Set C** (AI-first protocol, untouched).
 

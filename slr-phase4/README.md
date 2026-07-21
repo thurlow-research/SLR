@@ -89,6 +89,11 @@ Model panel: `opus` (Claude Opus) · `fable` (Claude Fable 5) · `codex` (gpt-5.
   co-occurrence expected; matrix = one query per column. Explainability three-way routing;
   measurand fixed vocabulary; define-only ≠ theme-membership in compressed copies. Facets 21;
   **menu 39 — re-import THIS version** (supersedes today's earlier counts).
+- **2026-07-20 — co-tagging protocol named & documented (calibration doc §7).** Set B's working
+  mode: human tags blind → assistant audits vs instrument + full text → arbiter rules → catches
+  land in all copies same-day. Yield: v2.2→v2.10 in two days. Blind layer preserved as pre-audit
+  Zotero versions (five papers); headline scoring = models vs final adjudicated sets; audit-free
+  papers (E95T8E88, UW2R6BBJ, E3E5YA2E, 5VTAJISY) + Set C carry the fully-clean comparison.
 - **2026-07-20 — method backfill audit → v2.9 (changelog §26).** Set A method facets backfilled
   (7/10 first-pass); whose-properties triangle + subjects-may-be-systems rules encoded;
   22JBEZNK +experiment, UB2EVUFU −experiment; `benchmark-evaluated` staged (UB2EVUFU/ProjDevBench
