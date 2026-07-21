@@ -635,6 +635,18 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   audit note: roster example 74GE3TF7 ("predicts high-maintenance PRs for gated triage") needs the
   same signal-vs-selection scrutiny on close read.
 
+## 30. General-AI kept-core exception — the sole-exemplar rule (UW2R6BBJ → v2.13)
+- **Ruling (Scott, 2026-07-21):** UW2R6BBJ kept core despite `general-ai` object — "the only one
+  so far that did a deep dive into applying the regulatory frameworks." Encoded as the
+  **sole-operationalization-exemplar exception**: a transferable general-AI governance paper may
+  stay core when it uniquely serves a review-question limb (here: regulatory frameworks →
+  engineering controls, evaluated + expert-validated). Grammar precedents: the one-framing-anchor
+  principle; `general-code`'s kept-core transfers. **Adjudication-layer only** — compressed copies
+  unchanged; models still flag `demote:context` on general-AI objects (flag proposes, human
+  disposes). M74M3RFJ's demote unaffected (unevaluated, robustness-focused, not sole). If a second
+  regulatory-operationalization deep-dive appears in the sweep, the "sole" premise lapses and both
+  get re-adjudicated on ordinary criteria. **Instrument = v2.13** (reference-only; menu stays 45).
+
 ---
 
 ### Headline for the writeup
