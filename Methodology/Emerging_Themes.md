@@ -322,6 +322,14 @@ artifacts measured (repos, PRs, commits, forum posts, logs, telemetry — behavi
 (mixed methods expected: `Z8TPRNEU` = self-report + field observation).
 - **Own evidence only:** `lit-review` papers get none (their evidence is synthesized — the methods
   live in the primaries); absence = no empirical evidence produced (position papers, pure designs).
+- **World-or-tool test (2026-07-20, systems-paper consultation):** results describing the *world*
+  → method facet; results describing only the *tool* (benchmarks, self-run tests over constructed
+  corpora) → no facet — that evaluation is carried by `built-system`. A detector run over real
+  repos earns `method-mining` only if the findings characterize the repos, not just the detector's
+  precision. **Humans using the artifact always fires one:** assigned tasks / controlled
+  conditions → `method-experiment`; real work in the org's own setting, natural use →
+  `method-field-study` (the adopted pilot rule's study-site pilots and case-study evaluations land
+  here); a lab study plus a deployment gets both.
 - **Slug rationale:** `method-self-report`, not `method-survey` — avoids colliding with
   `survey-input`, whose slug already misled the arbiter once (B644HQFS probe: the facet tests the
   finding's *utility to the org survey*, method-independent; a mined study can be survey-input).
