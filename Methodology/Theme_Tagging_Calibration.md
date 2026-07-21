@@ -276,6 +276,11 @@ is auditable (relevant for the course assignment and the dissertation methods ch
   `Tag_Cheatsheet.md`; `Taxonomy_Changelog.md` logs each disparity → diagnosis → change → measured
   outcome, and flags the confound that *both* the definitions and the prompt's task block changed
   between versions (so the v0→current delta is not attributable to definitions alone).
+- **Zotero Actions-menu self-select hazard (2026-07-20):** with the menu at 40+ toggles, scrolling
+  can silently fire a toggle on the focused item — caught twice (a facet swap on 6DXZGHD9; a
+  `risk-security` drop on 7V7SRG43). Standing mitigation: **post-paper server-side verification**
+  (sync, then API-echo the tag set) after every tagging session; keyboard shortcuts on
+  high-frequency toggles are the ergonomic fix if it recurs.
 - **Zotero write-safety tightened after a key leak.** The single Zotero API key was found hard-coded in
   older scripts/skills; **all keys were revoked and rotated**, then **split least-privilege**:
   `ZOTERO_API_KEY_RO` (reads) / `ZOTERO_API_KEY_RW` (writes), with fallback to a single
@@ -373,6 +378,14 @@ measures the models against a vetted instrument and disagreement becomes attribu
 | 11 | `R4WJZBSF` | B | **COMPLETE 2026-07-20** (blind snapshot v156638; blind read + model-aware adjudication): blind primary `risk-routing` → final **`regulatory-compliance`** + `hitl-workflow`; facets `metrics`/`framework`/`design-only`/`risk-ip`/`risk-bias`/`risk-quality`/`risk-overreliance`; no mode facet; **core, no demote** (what+how carve-out). Blind primary = the signal-without-allocation stretch — the boundary's first catch. Two define-only theme over-tags (`automation-bias`, `quality-debt` + `oversight-explanation`) caught in audit and removed | changelog §19 (`design-only`), §20 (`metrics` + routing boundary), §21–§22 (risk-flag family), §23 (what+how carve-out — this paper's ruling) — the most instrument-productive paper of the calibration |
 | 12 | `6DXZGHD9` | B | **COMPLETE 2026-07-20** (blind snapshot v156680; final v156686): blind primary `ai-code-insecurity` (sole theme) → final **`org-governance`** + `ai-code-insecurity` secondary; facets `built-system`/`metrics`/`risk-security`/`risk-quality`/`risk-overreliance`/`survey-input`; `framework` OFF (pipeline test); no mode facet. **Four arbiter reads to converge** (detection → governance assessment) — logged as diagnostic: if models scatter here, human difficulty predicted it. Template-family caution (ANN-ISM) in child record | changelog §24: risk-quality consistency catch (PA-2 = PA-5 clause); metrics measurand settled by output-is-the-score test; Set B consultation Q&A on this paper produced the lit-review framing rule + input-side expert-panel ruling |
 | — | *Set B process note (superseded same day — see the co-tagging protocol below)* | B | Original note: papers 1, 3–8 fully clean. By EOD 2026-07-20 the audit loop had extended to papers 1 (B644HQFS), 4 (7V7SRG43), and 6 (BAWCBT9R); only **3, 5, 7, 8 (E95T8E88, UW2R6BBJ, E3E5YA2E, 5VTAJISY)** remain audit-free (+ TF56EPIP backfill pending). No Set B paper has model tags | — |
+| 13 | `B644HQFS` | B | **COMPLETE 2026-07-20** (blind v156722 → final v156726): primary `quality-debt` — **arbiter altitude ruling** (coded volume over the commons-framing wrapper; a documented human data point for the models' identical choice) + `oversight-scaling-inversion`/`automation-bias`/`org-governance`/`hitl-workflow` (documented-practice: the slop-mitigations); `risk-quality` parity catch; −`tooling-supply-chain` (no AI-tooling object; **knowledge-ecosystem pollution noted as a homeless observation** — watch in sweep) | mining-study archetype for the risk flags via coded categories |
+| 14 | `BAWCBT9R` | B | **COMPLETE 2026-07-20** (blind v156730): primary `ai-review` + `demote:context` (judge-audit = validates-which-tool); `metrics` (measurand: judge bias-sensitivity/consistency); `method-experiment` (subjects-may-be-systems); QA removed `agentic` (mode-clarifier verbatim case) + `risk-quality` (wrong object — the evaluator, not the code) | changelog §27: the carve-out tool-validation **exclusion** encodes this paper's demote |
+| 15 | `7V7SRG43` (CodeAgent) | B | **COMPLETE 2026-07-20** (blind v156742 → final v156790): primary `ai-review` + `agent-scope-drift` (**the §13 worked-pair, missed blind — QA catch**); +`general-code`; −`method-experiment` (whose-properties, 2nd occurrence); `risk-security`+`risk-quality` kept per the **source-agnostic ruling** (§27) — `risk-security` was then dropped by the **menu self-select hazard** and restored | §27 source-agnostic rule born here; menu hazard discovered here |
+| 16 | `E95T8E88` (What to Cut) | B | **COMPLETE 2026-07-21** (blind v156811 → final v156819): blind primary `risk-routing` → **`oversight-scaling-inversion`** — the **second blind catch** of the signal-without-allocation boundary; +`routing-signal` (the facet's seed); malformed typed primary schema-fixed | changelog §29: `routing-signal` facet born here |
+| 17 | `5VTAJISY` (HULA) | B | **COMPLETE 2026-07-21** (blind v156761 → final v156815): primary `hitl-workflow` ✓ blind (plan-gate home case); **first `adopted` of the calibration** (Atlassian JIRA internal deployment — the facet's scarcity bar held until a real one); method swap −`experiment` (own-system offline eval — whose-properties, 3rd occurrence) +`field-study`; −`metrics` (apparatus), −`ai-review` (the human reviews in HULA); `steering` ✓ (hybrid steer-and-check documented) | none — nine facet axes exercised cleanly |
+| 18 | `UW2R6BBJ` (Secure AI-SDLC) | B | **COMPLETE 2026-07-21** (blind = final v156802 — **zero QA tag deltas, first human-solo-perfect set**): primary `regulatory-compliance` + `provenance-auditability`/`tooling-supply-chain`; `expert-validated` (the **promotion instance**, §V.E structured 12-expert post-implementation validation; Phase-1 consultation separately input-side); `general-ai` kept as audit trail — **core via the sole-exemplar exception** (§30, arbiter-weighed) | changelog §28 (promotion) + §30 (kept-core exception) born here |
+| 19 | `E3E5YA2E` | B | **COMPLETE 2026-07-21** (blind v156770 → final v156826): primary moved `hitl-workflow` → **`automation-bias`** (named in its own abstract + skill erosion); +`survey-input` (perception-study archetype) + `demote:context` (§3 perception class); −`theme:ai-code-insecurity` (perception ≠ empirical — B644HQFS consistency; `risk-security` flag stays), −`method-field-study` (interviews only), −`org-governance` (implications ≠ lift) | none |
+| 20 | `TF56EPIP` (backfill) | B | **COMPLETE 2026-07-21** (v156789): retagged under the mature instrument — 3 themes (from the pre-mode-pair 6), both mode facets, `lit-review` + `metrics` + `steering` + risk flags; `demote:context` (agreed: model-evaluation focus per UDVHQ5HR/VP7TS6CX precedent; **background wealth preserved via context tier, child note, and reference snowballing**); primary `ai-review` confirmed as biggest tent under the binding lit-review rule | none |
 
 **Co-tagging protocol (named 2026-07-20; role division clarified same day; documented for the
 methods chapter).** During Set B the working mode evolved from "human tags blind, alone" into
@@ -391,14 +404,17 @@ in two days (changelog §19–§27: design-only, metrics, the five-flag risk fam
 family, the what+how carve-out, ~a dozen boundary rules), a per-paper catch record (define-only
 over-tags, word-trap saves, the §13 worked-pair miss on 7V7SRG43), and near-model-error
 prediction (the human's difficulty spots flag where models are expected to scatter).
-**Comparability accounting (state precisely in writeups):** Set B audited papers are **"blind
-first read + AI-audited adjudication, model-tag-free"** — the audit assistant sees the paper only
-*after* the human's blind set is recorded. The **blind layer is preserved** as pre-audit Zotero
-versions: R4WJZBSF v156638 · 6DXZGHD9 v156680 · B644HQFS v156722 · BAWCBT9R v156730 · 7V7SRG43
-v156742. Scoring plan: **headline = models vs the final adjudicated sets** (the gold standard the
-co-tagging produced); secondary = models vs the blind snapshots (human-solo performance).
-**Disclosed confound:** the instrument moved during the pass (v2.2→v2.10), so blind tags for
+**Comparability accounting (state precisely in writeups; AMENDED 2026-07-21 at Set B close):**
+ALL TEN Set B papers were ultimately co-tagged (the arbiter chose QA for the final four as well) —
+every Set B human set is **"blind first read + AI-audited adjudication, model-tag-free."** The
+**human-solo layer is preserved for all ten** as pre-audit Zotero versions: R4WJZBSF v156638 ·
+6DXZGHD9 v156680 · B644HQFS v156722 · BAWCBT9R v156730 · 7V7SRG43 v156742 · 5VTAJISY v156761 ·
+E3E5YA2E v156770 · TF56EPIP v156784 · E95T8E88 v156811 · UW2R6BBJ v156802 (blind = final there —
+zero QA deltas). Scoring plan: **headline = models vs the final adjudicated sets** (the
+co-tagging gold standard); secondary = models vs the blind snapshots (human-solo performance).
+**Disclosed confound:** the instrument moved during the pass (v2.2→v2.13), so blind tags for
 early papers predate rules the models will see (the §9 confound's smaller sibling); the final
-adjudicated sets are all consistent with v2.10. The fully-clean comparison role now rests on the
-four audit-free papers + **Set C** (AI-first protocol, untouched).
+adjudicated sets are consistent with the closing instrument. The **fully-clean comparison role
+rests on Set C** (AI-first protocol, untouched). Set B tally: 3 `demote:context` flags in 10
+(BAWCBT9R, TF56EPIP, E3E5YA2E) — matching Set A's 3/10 demote rate exactly.
 

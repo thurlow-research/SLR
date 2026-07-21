@@ -89,6 +89,13 @@ Model panel: `opus` (Claude Opus) · `fable` (Claude Fable 5) · `codex` (gpt-5.
   co-occurrence expected; matrix = one query per column. Explainability three-way routing;
   measurand fixed vocabulary; define-only ≠ theme-membership in compressed copies. Facets 21;
   **menu 39 — re-import THIS version** (supersedes today's earlier counts).
+- **2026-07-21 — SET B COMPLETE (calibration doc §7 rows 11–20).** All 10 papers human-tagged and
+  co-tag QA'd under the closing instrument (v2.13); blind snapshots preserved for all ten
+  (UW2R6BBJ = the first zero-delta human-solo set). 3/10 demote flags (BAWCBT9R, TF56EPIP,
+  E3E5YA2E) — matches Set A's demote rate exactly. First `adopted` (HULA) and first
+  `expert-validated` (UW2R6BBJ) in the corpus. **Next:** three-model Set B run (fresh contexts,
+  v2.13 prompt) → human-vs-model comparison → Set C AI-first pilot (ZUM76CCG) → breadth policy →
+  the 148-core sweep.
 - **2026-07-21 — `routing-signal` contribution flag (v2.12, changelog §29).** Positive marker for
   the signal-without-allocation boundary (two blind arbiter catches: R4WJZBSF, E95T8E88); steering
   grammar; framing test; mutually exclusive with theme:risk-routing; Triage supply-chain roster.
