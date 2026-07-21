@@ -374,13 +374,19 @@ measures the models against a vetted instrument and disagreement becomes attribu
 | 12 | `6DXZGHD9` | B | **COMPLETE 2026-07-20** (blind snapshot v156680; final v156686): blind primary `ai-code-insecurity` (sole theme) → final **`org-governance`** + `ai-code-insecurity` secondary; facets `built-system`/`metrics`/`risk-security`/`risk-quality`/`risk-overreliance`/`survey-input`; `framework` OFF (pipeline test); no mode facet. **Four arbiter reads to converge** (detection → governance assessment) — logged as diagnostic: if models scatter here, human difficulty predicted it. Template-family caution (ANN-ISM) in child record | changelog §24: risk-quality consistency catch (PA-2 = PA-5 clause); metrics measurand settled by output-is-the-score test; Set B consultation Q&A on this paper produced the lit-review framing rule + input-side expert-panel ruling |
 | — | *Set B process note (superseded same day — see the co-tagging protocol below)* | B | Original note: papers 1, 3–8 fully clean. By EOD 2026-07-20 the audit loop had extended to papers 1 (B644HQFS), 4 (7V7SRG43), and 6 (BAWCBT9R); only **3, 5, 7, 8 (E95T8E88, UW2R6BBJ, E3E5YA2E, 5VTAJISY)** remain audit-free (+ TF56EPIP backfill pending). No Set B paper has model tags | — |
 
-**Co-tagging protocol (named 2026-07-20; documented for the methods chapter).** During Set B the
-working mode evolved from "human tags blind, alone" into **co-tagging**: (1) the human tags each
-paper blind (no model tags exist; the assistant has not read the paper); (2) on request, the
-assistant audits the tag set against the instrument text and the full text — consistency checks,
+**Co-tagging protocol (named 2026-07-20; role division clarified same day; documented for the
+methods chapter).** During Set B the working mode evolved from "human tags blind, alone" into
+**co-tagging — precisely: human-tags + AI-QA**. The role asymmetry is the design: **the human
+performs ALL tagging judgment; the AI never proposes tags before the human's blind set is
+recorded** — it performs quality assurance after. The loop: (1) the human tags each paper blind
+(no model tags exist; the assistant has not read the paper); (2) on request, the assistant
+*audits* the recorded tag set against the instrument text and the full text — consistency checks,
 rule-pointers, textual evidence — and answers definition questions at rule level; (3) the arbiter
-rules on every delta; (4) every boundary that catches or nearly catches the human lands in the
-compressed instrument the same day (compression-gap principle). **Yield:** instrument v2.2 → v2.10
+rules on every delta (the assistant's audit findings are proposals; adoption is the arbiter's, per
+the §5·1b critique-taxonomy rule); (4) every boundary that catches or nearly catches the human
+lands in the compressed instrument the same day (compression-gap principle). Where the assistant
+wrote tags via API, it executed the arbiter's already-made rulings mechanically (e.g., the
+M74M3RFJ reconciliation, the agreed method-facet corrections) — execution, not judgment. **Yield:** instrument v2.2 → v2.10
 in two days (changelog §19–§27: design-only, metrics, the five-flag risk family, the method
 family, the what+how carve-out, ~a dozen boundary rules), a per-paper catch record (define-only
 over-tags, word-trap saves, the §13 worked-pair miss on 7V7SRG43), and near-model-error
