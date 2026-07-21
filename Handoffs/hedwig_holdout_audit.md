@@ -89,9 +89,29 @@ contained the identical two Hedwig references as the current prompt; the **same 
 (§1) were applied, and the result verified Hedwig-free. All §2–§5 findings apply unchanged: the
 v2.1 text carries the same three other routing-resolving micro-examples, the same
 other-calibration-paper names (scope limitation identical), and the same reverse-polarity
-tie-breaker in the variant. Provenance chain for the assignment: `Tag_Prompt_v0.md` (original) →
+tie-breaker in the variant. Provenance chain for the assignment: `Tag_Prompt_v0.md` (original — verified **natively
+Hedwig-free**: zero references, and no tie-breaker instruction at all, per changelog §9) →
 `Tag_Prompt_ASSIGNMENT_v21_hedwig-free.md` (mid, de-referenced) →
 `Tag_Prompt_ASSIGNMENT_hedwig-free.md` (current, de-referenced).
+
+**Improvement gradient across the chain (documented record — the requirement the vintage was
+selected against):**
+
+| Vintage | Hedwig primary (documented) | Overall instrument |
+|---|---|---|
+| v0/v1 | **~2/3 split** across models — the recurring disagreement (changelog §5) | 6/10 primaries per model (Set A) |
+| v2.1 (mid) | **5/5 unanimous** post-fix; altitude-regression hold-check 3/3 | gate: fable 10/10 · codex 9/10 · gemini 9/10; facet-J doubled |
+| v2.13 (current) | **3/3** (2026-07-21 panel) | opus 17/20 · gemini 14/20 · codex 13/20 across both sets |
+
+So the mid vintage demonstrably improves on v0 (Hedwig: split → unanimous; instrument-wide: 6/10 →
+9-10/10), and the current vintage holds Hedwig at ceiling while improving instrument-wide. Two
+caveats the assignment must carry: (1) **ceiling effect** — v2.1 already reaches 5/5 on Hedwig's
+primary, so "final improves further" manifests at the instrument level and in facet coverage, not
+in Hedwig's primary, which can only hold; (2) **the historical Hedwig numbers were measured under
+the Hedwig-NAMING prompts** — the assignment re-measures under the de-referenced variants, and any
+shrinkage of the v0→v2.1 gain relative to the documented record is itself the experiment's
+leakage-effect estimate (a finding, not a flaw). Facet-level scoring across vintages must use
+vintage-appropriate vocabularies (4 → 14 → 27 facets) or restrict to the primary metric.
 
 ## 7. Authoritative v2.13 gold for T72TU8B5 (score against THIS — 3-facet copies are stale)
 
