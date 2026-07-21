@@ -204,11 +204,12 @@ distinct from coding-specific governance. Object-of-governance = the *model*, no
 - `M74M3RFJ` — assurance cases for LLM adversarial robustness + EU AI Act compliance (general-AI;
   **demoted core → context** 2026-07-15). The models all tagged it `regulatory-compliance` (theme-level,
   in-scope-looking); the human scoped it out — the flag is the tripwire for that.
-- **Kept-core exception (arbiter, 2026-07-21 — adjudication-layer rule, changelog §30):** a
-  general-AI paper may stay core when it is the corpus's **sole operationalization exemplar for a
-  review-question limb** — `UW2R6BBJ` kept as the only deep dive applying regulatory frameworks to
-  engineering controls (evaluated deployment + expert-validated), serving the RQ's
-  governance/policy limb. Parallel to the one-framing-anchor principle and `general-code`'s
+- **Kept-core exception (arbiter, 2026-07-21 — adjudication-layer rule, changelog §30):** a deep
+  regulatory-operationalization dive in a general-AI paper triggers a **look-at-keeping review —
+  not an automatic keep**; the arbiter then weighs whether it is the corpus's **sole
+  operationalization exemplar for a review-question limb**. `UW2R6BBJ` kept on that weighing (the
+  only deep dive applying regulatory frameworks to engineering controls; evaluated deployment +
+  expert-validated), serving the RQ's governance/policy limb. Parallel to the one-framing-anchor principle and `general-code`'s
   kept-core transfers; the flag stays on as audit trail. **Taggers/models still flag
   `demote:context` on general-AI objects** — the flag proposes, the human disposes; M74M3RFJ's
   demote stands (unevaluated, robustness-focused, not sole).
