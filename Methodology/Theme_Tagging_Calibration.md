@@ -269,7 +269,14 @@ instrument, so disagreement is attributable to the models, not to known-fuzzy de
    rather than an 11th Set B paper). Same reconciliation restored `TF56EPIP` to the 02-Human
    collection (it had been mis-shelved in 01-AI Calibration Run — all docs and its human-only tags
    confirm it is Set B). Zotero: `03-Set C - AI Tag, Human Validate` [U65X7JNA]; Set B = the
-   packet's 10, matching `calib_sets.json`.
+   packet's 10, matching `calib_sets.json`. **Pilot protocol (Scott, 2026-07-21):** Set C runs the
+   full production ladder (`tools/triage_v213.py`: L0 schema → L1 consensus [3/3 ACCEPT + **10%
+   seeded random audit**, 2/1 LIGHT-REVIEW, split HUMAN] → L2 computed tripwires [sprawl >6
+   themes, any demote flag] → per-tag facet voting), but **Scott reviews ALL Set C papers**
+   regardless of disposition — the pilot scores the ladder itself; sampling begins only in the
+   sweep. Retrospective validation on the calibration 20: 7 ACCEPT (6 correct; the 1 divergence =
+   the documented B644HQFS altitude ruling), 10 LIGHT-REVIEW (consensus proposal matched gold in
+   all 10), 3 HUMAN (exactly the three hardest papers: 2CKL96B8, E95T8E88, TF56EPIP).
 
 ---
 
