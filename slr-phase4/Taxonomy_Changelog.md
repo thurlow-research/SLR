@@ -560,6 +560,27 @@ tie-breaker-only, factorial on one paper) would separate the two effects.
   multi-apply compliance and the self-report/field-study boundary (observational studies at
   companies) in the model run.
 
+## 26. Method-facet backfill audit → two boundary rules; `benchmark-evaluated` staged (→ v2.9)
+- **Backfill (2026-07-20, Scott's quick scan of the 10 calibration items + assistant cross-check
+  against full texts):** 7/10 correct at first pass, including two rule-holds under pressure —
+  Hedwig `self-report` only (paper states "no formal user study"; synthetic-trace eval = tool) and
+  VibeGuard untagged *despite* its "controlled experiments" wording (synthetic projects,
+  precision/recall = tool results — the word didn't trap the tagger). Z8TPRNEU dual = the
+  reference's own worked example. Adjudicated corrections: **22JBEZNK + `method-experiment`**
+  (participants shown outputs, prompted to find flaws, primed + incentivized = assigned task with
+  manipulation; "case study" framing ≠ field-study — not their own real work) and **UB2EVUFU
+  − `method-experiment`** (initially tagged off its ProjDevBench benchmark run; arbiter agreed on
+  the whose-properties test — the scores describe TheBotCompany, not the world).
+- **Rules encoded:** (a) **whose-properties triangle** — VibeGuard (own tool, synthetic) none ·
+  UB2EVUFU (own tool, standardized third-party bench) none · UDVHQ5HR (third-party tools studied)
+  experiment; (b) **subjects may be systems** — controlled studies of *third-party* tools/models
+  whose findings characterize those systems = `method-experiment`; own-system evals never earn a
+  method facet regardless of harness. **`benchmark-evaluated` STAGED** (evidence rung within
+  `built-system`; UB2EVUFU = first genuine instance; deliberately not a method value — would
+  reverse the world-or-tool cut). **Instrument = v2.9** (text-only; menu stays 43).
+- **Outcome:** the method axis survived its first 10-paper backfill with a 70% first-pass hit rate
+  by a fatigued arbiter on day one — watch whether models beat that under the encoded rules.
+
 ---
 
 ### Headline for the writeup

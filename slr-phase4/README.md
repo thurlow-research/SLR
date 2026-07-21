@@ -89,6 +89,10 @@ Model panel: `opus` (Claude Opus) · `fable` (Claude Fable 5) · `codex` (gpt-5.
   co-occurrence expected; matrix = one query per column. Explainability three-way routing;
   measurand fixed vocabulary; define-only ≠ theme-membership in compressed copies. Facets 21;
   **menu 39 — re-import THIS version** (supersedes today's earlier counts).
+- **2026-07-20 — method backfill audit → v2.9 (changelog §26).** Set A method facets backfilled
+  (7/10 first-pass); whose-properties triangle + subjects-may-be-systems rules encoded;
+  22JBEZNK +experiment, UB2EVUFU −experiment; `benchmark-evaluated` staged (UB2EVUFU/ProjDevBench
+  = first instance). Text-only; menu stays 43.
 - **2026-07-20 — data-collection method family (v2.8, changelog §25).** `method-self-report` /
   `method-mining` / `method-experiment` / `method-field-study` — own-evidence-only, multi-apply,
   lit-reviews get none; the study-designs axis for synthesis evidence-weighting + the methods

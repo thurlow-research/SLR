@@ -330,6 +330,15 @@ artifacts measured (repos, PRs, commits, forum posts, logs, telemetry — behavi
   conditions → `method-experiment`; real work in the org's own setting, natural use →
   `method-field-study` (the adopted pilot rule's study-site pilots and case-study evaluations land
   here); a lab study plus a deployment gets both.
+- **Subjects may be systems (2026-07-20, calibration backfill audit):** controlled studies of
+  **third-party** tools/models whose findings characterize those systems = `method-experiment`
+  (UDVHQ5HR probing external LLM verifiers — the findings are about the world's tooling). Running
+  **your own** system on a benchmark — even a standardized third-party one (UB2EVUFU on
+  ProjDevBench, retry-on-fail conditions prescribed) — is still tool-results: no facet, by the
+  whose-properties test; parity with VibeGuard's untagged "controlled experiments on synthetic
+  projects." The triangle: VibeGuard (own tool, synthetic) none · UB2EVUFU (own tool, standardized
+  bench) none · UDVHQ5HR (others' tools studied) experiment. Benchmark-grade evidence for own
+  systems = evidence-strength within `built-system` — staged `benchmark-evaluated` candidate.
 - **Slug rationale:** `method-self-report`, not `method-survey` — avoids colliding with
   `survey-input`, whose slug already misled the arbiter once (B644HQFS probe: the facet tests the
   finding's *utility to the org survey*, method-independent; a mined study can be survey-input).

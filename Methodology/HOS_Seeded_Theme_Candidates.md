@@ -139,6 +139,15 @@ oversight layer).
   expert-validated design < built prototype < adopted). **Tripwire: papers where a documented
   panel validates the contribution itself accumulate** — the motivating instance dissolved on
   closer read (its panel was input-side), so the facet waits for a genuine first instance.
+- **(Corpus-seeded, 2026-07-20) `benchmark-evaluated` form facet — STAGED.** Own system evaluated
+  **under a standardized third-party benchmark's prescribed conditions** (UB2EVUFU on ProjDevBench
+  = first genuine instance) — an evidence-strength rung *within* `built-system`: self-tests <
+  standardized benchmark < field study < adopted. Deliberately NOT a `method-*` value (that would
+  reverse the world-or-tool cut — the results still describe the tool). **Tripwire: built-system
+  papers with standardized-benchmark evaluations accumulate** such that the Discussion wants the
+  roster ("N of M systems have benchmark-grade evidence") — likely fast, given agentic-systems
+  papers' benchmark habits; promote then. ≠ the paper *being* a benchmark study of third-party
+  systems (that's `method-experiment`, subjects-may-be-systems rule).
 
 ## Grafting checklist (do before classifying cores)
 1. Cross-check pass-through corpus papers (Mitropoulos, Ferdous, Charoenwet, Parris, Kumar,
