@@ -150,7 +150,10 @@ relative to unseen sweep papers. Disclose it.
   structurally-parallel diff-risk-gate example that neither names nor describes Hedwig's
   mechanism). **Use THIS for any model re-runs on Hedwig** — the live prompt names Hedwig's
   answer, which contaminates the experiment (the worked-example-leakage caveat, made concrete).
-  The live instrument is unchanged; this variant exists only for the assignment.
+  The live instrument is unchanged; this variant exists only for the assignment. **Hold-out
+  integrity audit: `Handoffs/hedwig_holdout_audit.md`** (analogy-distance finding, reverse-polarity
+  tie-breaker choice, routing-example census, authoritative v2.13 gold for T72TU8B5, quotable
+  residual-limitation sentence).
 
 ## 8. Ground rules for the Desktop session
 
