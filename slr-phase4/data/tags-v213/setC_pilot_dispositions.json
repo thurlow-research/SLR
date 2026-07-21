@@ -1,0 +1,49 @@
+[
+ {
+  "key": "ZUM76CCG",
+  "disposition": "LIGHT-REVIEW",
+  "consensus_primary": "risk-routing",
+  "primaries": {
+   "opus": "risk-routing",
+   "codex": "risk-routing",
+   "gemini": "org-governance"
+  },
+  "tripwires": [
+   "demote:context:opus",
+   "demote:context:codex",
+   "demote:context:gemini"
+  ],
+  "facets": {
+   "accept": [
+    "agentic",
+    "assistive"
+   ],
+   "noted": [
+    "general-ai",
+    "intro-framing",
+    "risk-overreliance"
+   ],
+   "dropped": [
+    "design-only",
+    "metrics",
+    "risk-quality"
+   ]
+  },
+  "themes": {
+   "opus": [
+    "org-governance",
+    "risk-routing"
+   ],
+   "codex": [
+    "hitl-workflow",
+    "org-governance",
+    "risk-routing"
+   ],
+   "gemini": [
+    "org-governance"
+   ]
+  },
+  "audit_sample": false,
+  "pilot_full_review": true
+ }
+]
