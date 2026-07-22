@@ -274,7 +274,18 @@ instrument, so disagreement is attributable to the models, not to known-fuzzy de
    seeded random audit**, 2/1 LIGHT-REVIEW, split HUMAN] → L2 computed tripwires [sprawl >6
    themes, any demote flag] → per-tag facet voting), but **Scott reviews ALL Set C papers**
    regardless of disposition — the pilot scores the ladder itself; sampling begins only in the
-   sweep. Retrospective validation on the calibration 20: 7 ACCEPT (6 correct; the 1 divergence =
+   sweep. **Replication stage (Scott, 2026-07-22 — disagreement-triggered, not universal):**
+   observing run-to-run variability during the assignment work, the design adds targeted
+   replication: any primary disagreement triggers **2 extra runs per model (k=3)**; each model's
+   vote becomes its **modal** primary (tags = asserted in ≥2/3 runs); re-triage on modals —
+   modal 3/3 = ACCEPT annotated *noise-resolved*, persistent 2/1 = LIGHT-REVIEW, persistent split
+   = HUMAN. **Within-model instability** (a model disagreeing with itself across runs) is a new
+   computed tripwire biasing one rung toward review — the operationalized "low-confidence" signal
+   (computed, never self-reported, per doctrine). Unanimous first-pass papers are never
+   replicated; the 10% audit covers residual false unanimity. The contested-subset replicates
+   double as the gauge-R&R (repeatability) study for the methods chapter. Note: CLI taggers offer
+   no temperature/seed control — nondeterminism is a property of the gauge, characterized rather
+   than eliminated. Retrospective validation on the calibration 20: 7 ACCEPT (6 correct; the 1 divergence =
    the documented B644HQFS altitude ruling), 10 LIGHT-REVIEW (consensus proposal matched gold in
    all 10), 3 HUMAN (exactly the three hardest papers: 2CKL96B8, E95T8E88, TF56EPIP).
 

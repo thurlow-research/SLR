@@ -10,6 +10,13 @@ Ladder (calibration-validated 2026-07-21, n=20):
       - sprawl: any model asserts > SPRAWL_MAX themes (TF56EPIP class)
       - any model demote flag (flag proposes, human disposes)
   Facet layer, per-tag voting: 3/3 accept | 2/3 accept-noted | 1/3 drop-logged.
+  Replication stage (2026-07-22): any primary disagreement triggers 2 extra runs
+  per model (files KEY.r2.json, KEY.r3.json). With replicates present, each
+  model's vote = its MODAL primary (ties -> run 1); tags = asserted in >=2 of 3
+  runs. Re-triage on modals; modal 3/3 = ACCEPT annotated noise-resolved.
+  Within-model instability (any run-level self-disagreement) = a tripwire that
+  biases disposition one rung toward review. Papers with disagreement and NO
+  replicates yet -> disposition RERUN-NEEDED (the worklist).
 
 Pilot mode (--pilot): dispositions computed as usual, but EVERY paper is
 emitted for full human review (Set C protocol: Scott reviews all; sampling
@@ -22,8 +29,7 @@ SPRAWL_MAX = 6
 LEGAL_FLAGS = {"demote:context", "demote:discard", "insufficient-input"}
 
 
-def load(base, model, key):
-    p = base / model / f"{key}.json"
+def load_one(p, model, key):
     if not p.exists() or p.stat().st_size == 0:
         return None, f"{model}/{key}: missing/empty"
     try:
@@ -39,6 +45,43 @@ def load(base, model, key):
     if bad:
         return None, f"{model}/{key}: illegal flags {bad}"
     return d, None
+
+
+def load(base, model, key):
+    """Run-aware: aggregate KEY.json (+ KEY.r2.json, KEY.r3.json if present) to modal votes."""
+    runs, first_err = [], None
+    for name in (f"{key}.json", f"{key}.r2.json", f"{key}.r3.json"):
+        p = base / model / name
+        if not p.exists():
+            continue
+        d, err = load_one(p, model, key)
+        if err and name == f"{key}.json":
+            first_err = err
+        if d:
+            runs.append(d)
+    if not runs:
+        return None, first_err or f"{model}/{key}: no valid runs"
+    if len(runs) == 1:
+        runs[0]["_runs"], runs[0]["_unstable"] = 1, False
+        return runs[0], None
+    prims = [r["primary_theme"] for r in runs]
+    modal = max(set(prims), key=lambda x: (prims.count(x), -prims.index(x)))
+    need = (len(runs) // 2) + 1
+    def vote(field):
+        c = {}
+        for r in runs:
+            for tag in set(r[field]):
+                c[tag] = c.get(tag, 0) + 1
+        return sorted(t for t, n in c.items() if n >= need)
+    themes = vote("themes")
+    if modal not in themes:
+        themes = sorted(set(themes) | {modal})
+    agg = {"key": key, "primary_theme": modal, "themes": themes,
+           "facets": vote("facets"),
+           "flags": [f for f in {f for r in runs for f in r.get("flags", [])}
+                     if sum(f in r.get("flags", []) for r in runs) >= need],
+           "_runs": len(runs), "_unstable": len(set(prims)) > 1}
+    return agg, None
 
 
 def triage(keys, base, seed, audit_rate, pilot):
@@ -64,13 +107,23 @@ def triage(keys, base, seed, audit_rate, pilot):
         for p in primaries.values():
             votes[p] = votes.get(p, 0) + 1
         top, topn = max(votes.items(), key=lambda x: x[1])
+        n_runs = {m: outs[m].get("_runs", 1) for m in MODELS}
+        replicated = all(v >= 3 for v in n_runs.values())
+        note = None
         if topn == 3:
             dispo, consensus = "ACCEPT", top
+            if replicated:
+                note = "noise-resolved"
+        elif not replicated:
+            dispo, consensus = "RERUN-NEEDED", top if topn == 2 else None
         elif topn == 2:
             dispo, consensus = "LIGHT-REVIEW", top
         else:
             dispo, consensus = "HUMAN", None
         tripwires = []
+        for m in MODELS:
+            if outs[m].get("_unstable"):
+                tripwires.append(f"unstable:{m}")
         for m in MODELS:
             if len(outs[m]["themes"]) > SPRAWL_MAX:
                 tripwires.append(f"sprawl:{m}={len(outs[m]['themes'])}")
@@ -88,6 +141,7 @@ def triage(keys, base, seed, audit_rate, pilot):
                   "noted": sorted(t for t, c in counts.items() if c == 2),
                   "dropped": sorted(t for t, c in counts.items() if c == 1)}
         results.append({"key": k, "disposition": dispo, "consensus_primary": consensus,
+                        "note": note, "runs": n_runs,
                         "primaries": primaries, "tripwires": tripwires, "facets": facets,
                         "themes": {m: sorted(outs[m]["themes"]) for m in MODELS}})
 
