@@ -73,4 +73,4 @@ content.
 
 ## Author
 
-Scott Thurlow — Ph.D. student, Purdue University.
+Scott Thurlow — D.Tech. student, Purdue University.
